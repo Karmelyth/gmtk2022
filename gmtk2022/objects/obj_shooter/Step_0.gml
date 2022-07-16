@@ -13,8 +13,11 @@ if gunangle > 180{
 
 //image_xscale = ((gunangle + 270) % 360) < 180 ? -1 : 1;
 //image_angle = gunangle - 90;
-
-if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 {
+var _editor = false;
+if instance_exists(obj_board){
+	_editor = obj_board.editor;	
+}
+if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) {
 	//Shoot chips
 	if instance_exists(obj_dice) {
 		with instance_create_layer(x, y, "Projectiles", obj_chip) {

@@ -13,6 +13,7 @@
 		The output is quite unholy, but we don't need it to NOT look unholy
 		");
 		var mx = (mouse_x div TILE_WIDTH) * TILE_WIDTH, my = (mouse_y div TILE_HEIGHT) * TILE_HEIGHT;
+		mx -= (sprite_get_xoffset(entity_sprite[entity_num])) - sprite_get_width(entity_sprite[entity_num]); my -= (sprite_get_yoffset(entity_sprite[entity_num])) - sprite_get_height(entity_sprite[entity_num]);;
 		draw_sprite(entity_sprite[entity_num],image_index,mx,my);
 		if button_pressed(inputs.shoot) || (button_check(inputs.shoot) && keyboard_check(vk_shift)){
 			if !collision_point(mx,my,entity_list[entity_num],0,1){
