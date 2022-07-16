@@ -8,3 +8,5 @@ gunangle = 0
 friction = .5
 sprite_list = [spr_hand_idle_a, spr_hand_cast, spr_hand_idle_b, spr_hand_thanos_snap];
 nodice_timer = 30;
+dash_timer = 0;
+dash_direction = 0;

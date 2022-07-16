@@ -25,7 +25,7 @@ function stay_inside_board() {
 	}
 	//might not need this since the dice should handle landing on its own.
 	//probably can just do that check first
-	if bbox_bottom > obj_board.bbox_bottom {
+	if bbox_bottom > obj_board.bbox_bottom && (touchedBottom = false){
 		if isMoving vspeed *= -bounce
 		y += (obj_board.bbox_bottom - bbox_bottom)
 		returnValue = true

@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Hand",
+    "path": "folders/Sprites/Hand.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_banknote",

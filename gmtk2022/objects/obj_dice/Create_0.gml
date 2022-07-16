@@ -8,3 +8,4 @@ hit_timer = 10;
 image_speed = 3;
 alarm[0] = 10
 landed = false;
+touchedBottom = false;

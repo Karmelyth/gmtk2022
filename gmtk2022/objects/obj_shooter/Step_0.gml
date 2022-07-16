@@ -35,6 +35,15 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 {
 	}
 }
 
+// Dash
+if mouse_check_button_pressed(mb_right) && dash_timer <= 0{
+	dash_timer = 15;
+	if abs(hspeed) > 0 dash_direction = sign(hspeed);
+}
+if (--dash_timer){
+	hspeed = sign(dash_direction) * 12;
+}
+// Return the dice to your hand after 1.5 seconds
 if instance_exists(obj_dice){
 	nodice_timer = 45;	
 }else{

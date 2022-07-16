@@ -6,3 +6,8 @@
 
 //image_xscale = width/(bbox_right - bbox_left)
 //image_yscale = height/(bbox_bottom - bbox_top)
+
+editor = false;
+entity_list = [obj_block, obj_block_large, obj_bumper, obj_cash_wad, obj_coin_pouch];
+entity_num = 0;
+entity_sprite = [spr_handblock, spr_handblock_BIG, spr_bumper, spr_cash_wad, spr_coin_pouch]
