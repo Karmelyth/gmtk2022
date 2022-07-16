@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_handblock_BIG",
-    "path": "sprites/spr_handblock_BIG/spr_handblock_BIG.yy",
+    "name": "spr_handblock_big",
+    "path": "sprites/spr_handblock_big/spr_handblock_big.yy",
   },
   "solid": false,
   "visible": true,
