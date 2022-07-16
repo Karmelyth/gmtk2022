@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_movement(){
 
-	var acceleration = .5,
+	var acceleration = 1,
 		maxspeed = 6;
 
 	if button_check(inputs.left) {

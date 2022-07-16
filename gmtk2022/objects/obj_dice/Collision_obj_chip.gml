@@ -10,4 +10,6 @@ motion_add(dir, 1.2 * abs(vector_get_length_on_axis(other.speed, other.direction
 on_dice_bounce(self)
 motion_add(90, speed * 0.125);
 
+instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_medium);
+
 instance_destroy(other)

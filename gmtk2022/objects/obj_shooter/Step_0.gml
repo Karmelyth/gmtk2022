@@ -18,7 +18,7 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 {
 	//Shoot chips
 	if instance_exists(obj_dice) {
 		with instance_create_layer(x, y, "Projectiles", obj_chip) {
-			motion_set(other.gunangle, 15)
+			motion_set(other.gunangle, 13)
 		}
 		sound_play_pitch(choose(snd_chip_throw1, snd_chip_throw2), 1)
 		sprite_index = sprite_list[3];

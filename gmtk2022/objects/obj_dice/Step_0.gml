@@ -10,8 +10,21 @@ else {
 	gravity = gravity_base
 }
 if (hit_timer && !--hit_timer){
-	image_speed = max(0, image_speed - 1);
+	image_speed = clamp(0, image_speed - 1, 4);
 	if(image_speed){
 		hit_timer = 10;	
 	}
 }
+
+
+/*//Landing on the ground
+if y >= obj_shooter.y || landed{
+	speed = 0;
+	y = obj_shooter.y;
+	landed = true;
+}
+
+//Decide rolled value
+if landed{
+	image_speed = 0;
+}*/

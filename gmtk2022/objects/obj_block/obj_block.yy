@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects",
-    "path": "folders/objects.yy",
+    "name": "blocks",
+    "path": "folders/objects/blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_block",

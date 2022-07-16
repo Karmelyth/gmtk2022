@@ -1,16 +1,15 @@
 {
-  "name": "obj_chip",
   "spriteId": {
     "name": "spr_chip",
     "path": "sprites/spr_chip/spr_chip.yy",
   },
-  "spriteMaskId": null,
-  "visible": true,
   "solid": false,
-  "persistent": false,
-  "physicsObject": false,
+  "visible": true,
   "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -34,6 +33,7 @@
     "path": "folders/objects.yy",
   },
   "resourceVersion": "1.0",
+  "name": "obj_chip",
   "tags": [],
   "resourceType": "GMObject",
 }
