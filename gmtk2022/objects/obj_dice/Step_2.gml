@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Stay inside board
 // You can write your code in this editor
 
 if (instance_exists(obj_board)) {
@@ -9,4 +9,7 @@ if (instance_exists(obj_board)) {
 	}
 }
 
-stay_inside_board()
+//True when bouncing
+if stay_inside_board() {
+	sound_play_pitch(snd_die_hit_wall, random_range(.9, 1.1))
+}

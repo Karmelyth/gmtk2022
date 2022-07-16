@@ -10,7 +10,8 @@ if gunangle > 180{
 		gunangle = 0;	
 	}else gunangle = 180;
 }
-image_xscale = ((gunangle + 270) % 360) < 180 ? -1 : 1;
+
+//image_xscale = ((gunangle + 270) % 360) < 180 ? -1 : 1;
 //image_angle = gunangle - 90;
 
 if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 {
@@ -19,6 +20,7 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 {
 		with instance_create_layer(x, y, "Projectiles", obj_chip) {
 			motion_set(other.gunangle, 15)
 		}
+		sound_play_pitch(choose(snd_chip_throw1, snd_chip_throw2), 1)
 		sprite_index = sprite_list[3];
 		image_index = 0;
 	}
@@ -27,6 +29,7 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 {
 		with instance_create_layer(x, y, "Projectiles", obj_dice) {
 			motion_set(other.gunangle, 18)
 		}
+		sound_play_pitch(snd_die_throw, 1)
 		sprite_index = sprite_list[1];
 		image_index = 0;
 	}

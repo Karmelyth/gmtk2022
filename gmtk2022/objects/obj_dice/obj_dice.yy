@@ -1,15 +1,16 @@
 {
+  "name": "obj_dice",
   "spriteId": {
     "name": "spr_dice_hit",
     "path": "sprites/spr_dice_hit/spr_dice_hit.yy",
   },
-  "solid": false,
-  "visible": true,
-  "managed": true,
   "spriteMaskId": null,
+  "visible": true,
+  "solid": false,
   "persistent": false,
-  "parentObjectId": null,
   "physicsObject": false,
+  "managed": true,
+  "parentObjectId": null,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -36,7 +37,6 @@
     "path": "folders/objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dice",
   "tags": [],
   "resourceType": "GMObject",
 }
