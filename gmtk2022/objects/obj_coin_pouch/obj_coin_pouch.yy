@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_coin_pouch",
-    "path": "sprites/spr_coin_pouch/spr_coin_pouch.yy",
+    "name": "spr_bag_idle_a",
+    "path": "sprites/spr_bag_idle_a/spr_bag_idle_a.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,6 +27,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

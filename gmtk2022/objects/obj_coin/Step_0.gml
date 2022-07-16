@@ -23,6 +23,13 @@ if y >= obj_shooter.y || landed{
 	landed = true;
 }
 
+//FX
+if !irandom(40 - (speed > 0) * 25){
+	with instance_create_layer(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), "Instances", obj_sparkle){
+		depth = other.depth + choose(-1, 1);
+	}
+}
+
 //Decide rolled value 
 if landed{
 	fade--;

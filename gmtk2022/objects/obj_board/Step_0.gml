@@ -33,6 +33,7 @@ function fill_with_bricks(x1,y1,x2,y2){
 */
 
 if !(editor) && keyboard_check_pressed(vk_home){
-	with(par_bricklike) instance_destroy();
+	with(par_collectible) instance_destroy(self, false);
+	with(par_bricklike) instance_destroy(self, false);
 	editor = true;
 }

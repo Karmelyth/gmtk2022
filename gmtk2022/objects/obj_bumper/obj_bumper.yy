@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_bumper",
+    "path": "sprites/spr_bumper/spr_bumper.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "par_bricklike",

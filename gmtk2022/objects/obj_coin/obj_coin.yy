@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_collectible",
+    "path": "objects/par_collectible/par_collectible.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

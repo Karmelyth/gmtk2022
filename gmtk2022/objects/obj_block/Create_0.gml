@@ -3,3 +3,4 @@
 	image_index = irandom(image_number);
 }
 my_health = 1;
+is_destructible = true;

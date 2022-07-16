@@ -10,4 +10,5 @@ y = yprevious
 var dir = point_direction(other.x,other.y, x, y);
 motion_set(dir, min(speed + 4, 24))
 instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_small);
-other.image_speed = 1;
+other.sprite_index = spr_bumper_hit;
+other.image_index = 0;

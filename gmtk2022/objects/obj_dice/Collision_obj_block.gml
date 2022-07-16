@@ -15,13 +15,20 @@ on_dice_bounce(self)
 
 if other.object_index == obj_coin_pouch{
 	repeat(3){
-		with instance_create_layer(other.x, other.bbox_top - 4, "Instances", obj_coin){
+		with instance_create_layer(other.x, other.bbox_top - 13, "Instances", obj_coin){
 			motion_set(random_range(70, 110), irandom_range(5, 8));
 		}
 	}	
+	with other{
+		sprite_index = spr_bag_hurt_a;
+		image_index = 0;
+	}
 }
 
-other.my_health--;
-if other.my_health <= 0{
-	instance_destroy(other);
+
+if other.is_destructible{
+	other.my_health--;
+	if other.my_health <= 0{
+		instance_destroy(other);
+	}
 }
