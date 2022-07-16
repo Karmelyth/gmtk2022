@@ -19,6 +19,11 @@
 				instance_create_layer(mx,my,layer,entity_list[entity_num]);
 			}
 		}
+		if button_pressed(inputs.menu_cancel) || (button_check(inputs.menu_cancel) && keyboard_check(vk_shift)){
+			with(collision_point(mx,my,par_bricklike,0,1)){
+				instance_destroy();
+			}
+		}
 		if mouse_wheel_up(){
 			entity_num --;
 			if entity_num <= 0{
