@@ -9,8 +9,9 @@ function draw_money(_x, _y, moneyString) {
 	
 	_x += 48 * (5 - string_length(moneyString))
 
-	for (var i = 0; i < string_length(moneyString); i++) {
-		draw_sprite(spr_numbers, get_number_index(string_char_at(moneyString, i)), _x + 48 * i, _y)
+
+	for (var i = 1; i <= string_length(moneyString); i++) { // Fixed
+		draw_sprite(spr_numbers, get_number_index(string_char_at(moneyString, i)), _x + (48 * (i - 1)), _y)
 	}
 	
 	draw_sprite(spr_dollar, -1, xsaved, _y)
