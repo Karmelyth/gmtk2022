@@ -1,0 +1,144 @@
+You are using YYP Maker v1.1.4, released in 31-03-2022
+
+
+
+[15-07-2022 15:13:42] Initialized GameMaker Project: gmtk2022.yyp
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/animcurves
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/extensions
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/fonts
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/notes
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/objects
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options
+[15-07-2022 15:13:42] Checking windows
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows
+[15-07-2022 15:13:42] Checking operagx
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx
+[15-07-2022 15:13:42] Checking main
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main
+[15-07-2022 15:13:42] Checking mac
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac
+[15-07-2022 15:13:42] Checking linux
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux
+[15-07-2022 15:13:42] Checking options_linux.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux/options_linux.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux/options_linux.yy
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac
+[15-07-2022 15:13:42] Checking options_mac.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac/options_mac.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac/options_mac.yy
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main
+[15-07-2022 15:13:42] Checking options_main.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main/options_main.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main/options_main.yy
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx
+[15-07-2022 15:13:42] Checking options_operagx.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx/options_operagx.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx/options_operagx.yy
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows
+[15-07-2022 15:13:42] Checking options_windows.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows/options_windows.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows/options_windows.yy
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/paths
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms
+[15-07-2022 15:13:42] Checking room1
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1
+[15-07-2022 15:13:42] Checking room1.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1/room1.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1/room1.yy
+[15-07-2022 15:13:42] Par: "folders/Rooms" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1/room1.yy"
+[15-07-2022 15:13:42] Found Room: Room1
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts
+[15-07-2022 15:13:42] Checking input
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input
+[15-07-2022 15:13:42] Checking input.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input/input.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input/input.yy
+[15-07-2022 15:13:42] Par: "folders/Scripts" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input/input.yy"
+[15-07-2022 15:13:42] Found Script: input
+[15-07-2022 15:13:42] Checking input.gml
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sequences
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/shaders
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sounds
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites
+[15-07-2022 15:13:42] Checking stilebasic
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic
+[15-07-2022 15:13:42] Checking scampoint
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint
+[15-07-2022 15:13:42] Checking scamera
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera
+[15-07-2022 15:13:42] Checking scamcont
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont
+[15-07-2022 15:13:42] Checking scamcont.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/scamcont.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/scamcont.yy
+[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/scamcont.yy"
+[15-07-2022 15:13:42] Found Sprite: sCamCont
+[15-07-2022 15:13:42] Checking layers
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers
+[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers
+[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera
+[15-07-2022 15:13:42] Checking scamera.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/scamera.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/scamera.yy
+[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/scamera.yy"
+[15-07-2022 15:13:42] Found Sprite: sCamera
+[15-07-2022 15:13:42] Checking layers
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers
+[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers
+[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint
+[15-07-2022 15:13:42] Checking scampoint.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/scampoint.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/scampoint.yy
+[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/scampoint.yy"
+[15-07-2022 15:13:42] Found Sprite: sCamPoint
+[15-07-2022 15:13:42] Checking layers
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers
+[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers
+[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 15:13:42] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic
+[15-07-2022 15:13:42] Checking stilebasic.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/stilebasic.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/stilebasic.yy
+[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/stilebasic.yy"
+[15-07-2022 15:13:42] Found Sprite: sTileBasic
+[15-07-2022 15:13:42] Checking layers
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers
+[15-07-2022 15:13:42] Checking 70dea18f-e7be-4529-95c5-1395f9e7e291.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers
+[15-07-2022 15:13:42] Checking 70dea18f-e7be-4529-95c5-1395f9e7e291
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers/70dea18f-e7be-4529-95c5-1395f9e7e291
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers/70dea18f-e7be-4529-95c5-1395f9e7e291
+[15-07-2022 15:13:42] Checking 0cdbf745-a1b8-4c0f-9a70-cf9661238a3c.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets
+[15-07-2022 15:13:42] Checking tbasic
+[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic
+[15-07-2022 15:13:42] Checking tbasic.yy
+[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic/tbasic.yy
+[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic/tbasic.yy
+[15-07-2022 15:13:42] Par: "folders/Tile Sets" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic/tbasic.yy"
+[15-07-2022 15:13:42] Found TileSet: tBasic
+[15-07-2022 15:13:42] Checking output_tileset.png
+[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/timelines
+[15-07-2022 15:13:42] Moving files to trash...
+[15-07-2022 15:13:42] Files yeeted successfully!
+[15-07-2022 15:13:42] Generating YYP...
+[15-07-2022 15:13:42] gmtk2022.yyp created successfully!
