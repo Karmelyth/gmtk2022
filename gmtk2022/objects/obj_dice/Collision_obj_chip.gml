@@ -6,7 +6,7 @@ x = xprevious
 y = yprevious
 
 var dir = point_direction(other.x, other.y, x, y);
-motion_add(dir, 1.2 * abs(vector_get_length_on_axis(other.speed, other.direction, dir)))
+motion_add(dir, 1.2 * (vector_get_length_on_axis(other.speed, other.direction, dir)))
 on_dice_bounce(self)
 motion_add(90, speed * 0.125);
 

@@ -1,6 +1,7 @@
 {
-	draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,0,c_white,1);
-	if sprite_index = sprite_list[0]{
-		draw_sprite(spr_dice_idle,0,x,y);	
+	draw_self()
+	if sprite_index = sprite_list[0] {
+		draw_dice_preview(x, y, gunangle);
+		draw_sprite(spr_dice_idle, -1, x, y);
 	}
 }
