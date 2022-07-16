@@ -8,6 +8,6 @@ friction = .2
 hit_timer = 0;
 maxspeed = 12
 maxspeed_deviation = random_range(1, 1.5);
-image_speed = 1;
+image_speed = random_range(.8, 1.2);
 landed = false;
 fade = round(room_speed);

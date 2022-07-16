@@ -50,7 +50,8 @@
 			file_text_close(file);	
 		}
 		if keyboard_check_pressed(vk_space){
-			with(par_bricklike) instance_destroy();
+			with(par_collectible) instance_destroy(self, false);
+			with(par_bricklike) instance_destroy(self, false);
 			level_load(0);
 		}
 		if keyboard_check_pressed(vk_backspace){

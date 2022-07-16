@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_speed = 0;
+switch sprite_index{
+	default: sprite_index = spr_bumper; break;
+}
