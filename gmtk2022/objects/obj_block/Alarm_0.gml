@@ -1,12 +1,7 @@
-/// @description Insert description here
+/// @description Make Visible
 // You can write your code in this editor
 
-with instance_create_layer(x, y - sprite_height / 2, layer, object_index) {
-	alarm[0] = -1
-	//image_yscale = .5
+visible = true
+with instance_create_layer(x, y, "FX", obj_brick_flash) {
+	sprite_index = other.sprite_index	
 }
-with instance_create_layer(x, y + sprite_height / 2, layer, object_index) {
-	alarm[0] = -1
-	//image_yscale = .5
-}
-instance_destroy()

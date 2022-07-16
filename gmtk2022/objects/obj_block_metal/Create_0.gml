@@ -6,4 +6,3 @@
 event_inherited();
 my_health = 999999;
 is_destructible = false;
-alarm[0] = -1;
