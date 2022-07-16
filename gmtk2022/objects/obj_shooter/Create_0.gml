@@ -6,3 +6,5 @@ bounciness = 0
 
 gunangle = 0
 friction = .2
+sprite_list = [spr_hand_idle_a, spr_hand_cast, spr_hand_idle_b, spr_hand_thanos_snap];
+nodice_timer = 30;

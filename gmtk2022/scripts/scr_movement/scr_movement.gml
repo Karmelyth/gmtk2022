@@ -2,8 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_movement(){
 
-	var acceleration = .4,
-		maxspeed = 5;
+	var acceleration = .5,
+		maxspeed = 6;
 
 	if button_check(inputs.left) {
 		hspeed -= acceleration

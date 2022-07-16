@@ -11,3 +11,9 @@ if vspeed > 0 {
 else {
 	gravity = gravity_base
 }
+if (hit_timer && !--hit_timer){
+	image_speed = max(0, image_speed - 1);
+	if(image_speed){
+		hit_timer = 10;	
+	}
+}

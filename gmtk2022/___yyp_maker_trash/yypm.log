@@ -2,143 +2,325 @@ You are using YYP Maker v1.1.4, released in 31-03-2022
 
 
 
-[15-07-2022 15:13:42] Initialized GameMaker Project: gmtk2022.yyp
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/animcurves
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/extensions
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/fonts
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/notes
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/objects
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options
-[15-07-2022 15:13:42] Checking windows
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows
-[15-07-2022 15:13:42] Checking operagx
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx
-[15-07-2022 15:13:42] Checking main
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main
-[15-07-2022 15:13:42] Checking mac
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac
-[15-07-2022 15:13:42] Checking linux
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux
-[15-07-2022 15:13:42] Checking options_linux.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux/options_linux.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/linux/options_linux.yy
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac
-[15-07-2022 15:13:42] Checking options_mac.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac/options_mac.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/mac/options_mac.yy
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main
-[15-07-2022 15:13:42] Checking options_main.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main/options_main.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/main/options_main.yy
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx
-[15-07-2022 15:13:42] Checking options_operagx.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx/options_operagx.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/operagx/options_operagx.yy
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows
-[15-07-2022 15:13:42] Checking options_windows.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows/options_windows.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/options/windows/options_windows.yy
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/paths
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms
-[15-07-2022 15:13:42] Checking room1
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1
-[15-07-2022 15:13:42] Checking room1.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1/room1.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1/room1.yy
-[15-07-2022 15:13:42] Par: "folders/Rooms" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/rooms/room1/room1.yy"
-[15-07-2022 15:13:42] Found Room: Room1
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts
-[15-07-2022 15:13:42] Checking input
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input
-[15-07-2022 15:13:42] Checking input.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input/input.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input/input.yy
-[15-07-2022 15:13:42] Par: "folders/Scripts" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/scripts/input/input.yy"
-[15-07-2022 15:13:42] Found Script: input
-[15-07-2022 15:13:42] Checking input.gml
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sequences
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/shaders
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sounds
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites
-[15-07-2022 15:13:42] Checking stilebasic
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic
-[15-07-2022 15:13:42] Checking scampoint
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint
-[15-07-2022 15:13:42] Checking scamera
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera
-[15-07-2022 15:13:42] Checking scamcont
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont
-[15-07-2022 15:13:42] Checking scamcont.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/scamcont.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/scamcont.yy
-[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/scamcont.yy"
-[15-07-2022 15:13:42] Found Sprite: sCamCont
-[15-07-2022 15:13:42] Checking layers
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers
-[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers
-[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers/89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamcont/layers/89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera
-[15-07-2022 15:13:42] Checking scamera.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/scamera.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/scamera.yy
-[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/scamera.yy"
-[15-07-2022 15:13:42] Found Sprite: sCamera
-[15-07-2022 15:13:42] Checking layers
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers
-[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers
-[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers/89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scamera/layers/89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint
-[15-07-2022 15:13:42] Checking scampoint.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/scampoint.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/scampoint.yy
-[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/scampoint.yy"
-[15-07-2022 15:13:42] Found Sprite: sCamPoint
-[15-07-2022 15:13:42] Checking layers
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers
-[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers
-[15-07-2022 15:13:42] Checking 89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers/89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/scampoint/layers/89edb368-09d6-49be-8294-c26b9a63a279
-[15-07-2022 15:13:42] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic
-[15-07-2022 15:13:42] Checking stilebasic.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/stilebasic.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/stilebasic.yy
-[15-07-2022 15:13:42] Par: "folders/Sprites" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/stilebasic.yy"
-[15-07-2022 15:13:42] Found Sprite: sTileBasic
-[15-07-2022 15:13:42] Checking layers
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers
-[15-07-2022 15:13:42] Checking 70dea18f-e7be-4529-95c5-1395f9e7e291.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers
-[15-07-2022 15:13:42] Checking 70dea18f-e7be-4529-95c5-1395f9e7e291
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers/70dea18f-e7be-4529-95c5-1395f9e7e291
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/sprites/stilebasic/layers/70dea18f-e7be-4529-95c5-1395f9e7e291
-[15-07-2022 15:13:42] Checking 0cdbf745-a1b8-4c0f-9a70-cf9661238a3c.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets
-[15-07-2022 15:13:42] Checking tbasic
-[15-07-2022 15:13:42] Directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic
-[15-07-2022 15:13:42] Checking tbasic.yy
-[15-07-2022 15:13:42] Parsing C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic/tbasic.yy
-[15-07-2022 15:13:42] Reading C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic/tbasic.yy
-[15-07-2022 15:13:42] Par: "folders/Tile Sets" at dir: "C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/tilesets/tbasic/tbasic.yy"
-[15-07-2022 15:13:42] Found TileSet: tBasic
-[15-07-2022 15:13:42] Checking output_tileset.png
-[15-07-2022 15:13:42] Current parent directory: C:/Users/dizzy/Documents/GameMakerStudio2/gmtk2022/gmtk2022/timelines
-[15-07-2022 15:13:42] Moving files to trash...
-[15-07-2022 15:13:42] Files yeeted successfully!
-[15-07-2022 15:13:42] Generating YYP...
-[15-07-2022 15:13:42] gmtk2022.yyp created successfully!
+[15-07-2022 22:56:33] Initialized GameMaker Project: gmtk2022.yyp
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/animcurves
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/extensions
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/fonts
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/notes
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects
+[15-07-2022 22:56:33] Checking obj_shooter
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_shooter
+[15-07-2022 22:56:33] Checking obj_dice
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_dice
+[15-07-2022 22:56:33] Checking obj_chip_effect
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip_effect
+[15-07-2022 22:56:33] Checking obj_chip
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip
+[15-07-2022 22:56:33] Checking obj_board
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_board
+[15-07-2022 22:56:33] Checking obj_block
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_block
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_block
+[15-07-2022 22:56:33] Checking obj_block.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_block/obj_block.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_block/obj_block.yy
+[15-07-2022 22:56:33] Par: "folders/objects" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_block/obj_block.yy"
+[15-07-2022 22:56:33] Found Object: obj_block
+[15-07-2022 22:56:33] Checking Create_0.gml
+[15-07-2022 22:56:33] Checking Alarm_0.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_board
+[15-07-2022 22:56:33] Checking obj_board.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_board/obj_board.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_board/obj_board.yy
+[15-07-2022 22:56:33] Par: "folders/objects" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_board/obj_board.yy"
+[15-07-2022 22:56:33] Found Object: obj_board
+[15-07-2022 22:56:33] Checking Create_0.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip
+[15-07-2022 22:56:33] Checking Step_2.gml
+[15-07-2022 22:56:33] Checking obj_chip.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip/obj_chip.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip/obj_chip.yy
+[15-07-2022 22:56:33] Par: "folders/objects" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip/obj_chip.yy"
+[15-07-2022 22:56:33] Found Object: obj_chip
+[15-07-2022 22:56:33] Checking Destroy_0.gml
+[15-07-2022 22:56:33] Checking Collision_obj_block.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip_effect
+[15-07-2022 22:56:33] Checking Step_0.gml
+[15-07-2022 22:56:33] Checking obj_chip_effect.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip_effect/obj_chip_effect.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip_effect/obj_chip_effect.yy
+[15-07-2022 22:56:33] Par: "folders/objects" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_chip_effect/obj_chip_effect.yy"
+[15-07-2022 22:56:33] Found Object: obj_chip_effect
+[15-07-2022 22:56:33] Checking Create_0.gml
+[15-07-2022 22:56:33] Checking Alarm_0.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_dice
+[15-07-2022 22:56:33] Checking Step_2.gml
+[15-07-2022 22:56:33] Checking Step_0.gml
+[15-07-2022 22:56:33] Checking obj_dice.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_dice/obj_dice.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_dice/obj_dice.yy
+[15-07-2022 22:56:33] Par: "folders/objects" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_dice/obj_dice.yy"
+[15-07-2022 22:56:33] Found Object: obj_dice
+[15-07-2022 22:56:33] Checking Create_0.gml
+[15-07-2022 22:56:33] Checking Collision_obj_chip.gml
+[15-07-2022 22:56:33] Checking Collision_obj_block.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_shooter
+[15-07-2022 22:56:33] Checking Step_2.gml
+[15-07-2022 22:56:33] Checking Step_0.gml
+[15-07-2022 22:56:33] Checking obj_shooter.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_shooter/obj_shooter.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_shooter/obj_shooter.yy
+[15-07-2022 22:56:33] Par: "folders/objects" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/objects/obj_shooter/obj_shooter.yy"
+[15-07-2022 22:56:33] Found Object: obj_shooter
+[15-07-2022 22:56:33] Checking Create_0.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options
+[15-07-2022 22:56:33] Checking windows
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/windows
+[15-07-2022 22:56:33] Checking operagx
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/operagx
+[15-07-2022 22:56:33] Checking main
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/main
+[15-07-2022 22:56:33] Checking mac
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/mac
+[15-07-2022 22:56:33] Checking linux
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/linux
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/linux
+[15-07-2022 22:56:33] Checking options_linux.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/linux/options_linux.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/linux/options_linux.yy
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/mac
+[15-07-2022 22:56:33] Checking options_mac.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/mac/options_mac.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/mac/options_mac.yy
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/main
+[15-07-2022 22:56:33] Checking options_main.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/main/options_main.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/main/options_main.yy
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/operagx
+[15-07-2022 22:56:33] Checking options_operagx.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/operagx/options_operagx.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/operagx/options_operagx.yy
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/windows
+[15-07-2022 22:56:33] Checking options_windows.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/windows/options_windows.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/options/windows/options_windows.yy
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/paths
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms
+[15-07-2022 22:56:33] Checking room_test
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/room_test
+[15-07-2022 22:56:33] Checking parent_room
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/parent_room
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/parent_room
+[15-07-2022 22:56:33] Checking parent_room.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/parent_room/parent_room.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/parent_room/parent_room.yy
+[15-07-2022 22:56:33] Par: "folders/Rooms" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/parent_room/parent_room.yy"
+[15-07-2022 22:56:33] Found Room: parent_room
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/room_test
+[15-07-2022 22:56:33] Checking room_test.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/room_test/room_test.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/room_test/room_test.yy
+[15-07-2022 22:56:33] Par: "folders/Rooms" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/rooms/room_test/room_test.yy"
+[15-07-2022 22:56:33] Found Room: room_test
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts
+[15-07-2022 22:56:33] Checking vector_get_length_on_axis
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/vector_get_length_on_axis
+[15-07-2022 22:56:33] Checking stay_inside_board
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/stay_inside_board
+[15-07-2022 22:56:33] Checking scr_movement
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_movement
+[15-07-2022 22:56:33] Checking scr_input
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_input
+[15-07-2022 22:56:33] Checking scr_dice_land
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_dice_land
+[15-07-2022 22:56:33] Checking on_dice_bounce
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/on_dice_bounce
+[15-07-2022 22:56:33] Checking is_outside_board
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/is_outside_board
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/is_outside_board
+[15-07-2022 22:56:33] Checking is_outside_board.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/is_outside_board/is_outside_board.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/is_outside_board/is_outside_board.yy
+[15-07-2022 22:56:33] Par: "folders/Scripts" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/is_outside_board/is_outside_board.yy"
+[15-07-2022 22:56:33] Found Script: is_outside_board
+[15-07-2022 22:56:33] Checking is_outside_board.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/on_dice_bounce
+[15-07-2022 22:56:33] Checking on_dice_bounce.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/on_dice_bounce/on_dice_bounce.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/on_dice_bounce/on_dice_bounce.yy
+[15-07-2022 22:56:33] Par: "folders/Scripts" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/on_dice_bounce/on_dice_bounce.yy"
+[15-07-2022 22:56:33] Found Script: on_dice_bounce
+[15-07-2022 22:56:33] Checking on_dice_bounce.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_dice_land
+[15-07-2022 22:56:33] Checking scr_dice_land.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_dice_land/scr_dice_land.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_dice_land/scr_dice_land.yy
+[15-07-2022 22:56:33] Par: "folders/Scripts" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_dice_land/scr_dice_land.yy"
+[15-07-2022 22:56:33] Found Script: scr_dice_land
+[15-07-2022 22:56:33] Checking scr_dice_land.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_input
+[15-07-2022 22:56:33] Checking scr_input.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_input/scr_input.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_input/scr_input.yy
+[15-07-2022 22:56:33] Par: "folders/Scripts" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_input/scr_input.yy"
+[15-07-2022 22:56:33] Found Script: scr_input
+[15-07-2022 22:56:33] Checking scr_input.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_movement
+[15-07-2022 22:56:33] Checking scr_movement.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_movement/scr_movement.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_movement/scr_movement.yy
+[15-07-2022 22:56:33] Par: "folders/Scripts" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/scr_movement/scr_movement.yy"
+[15-07-2022 22:56:33] Found Script: scr_movement
+[15-07-2022 22:56:33] Checking scr_movement.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/stay_inside_board
+[15-07-2022 22:56:33] Checking stay_inside_board.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/stay_inside_board/stay_inside_board.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/stay_inside_board/stay_inside_board.yy
+[15-07-2022 22:56:33] Par: "folders/Scripts" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/stay_inside_board/stay_inside_board.yy"
+[15-07-2022 22:56:33] Found Script: stay_inside_board
+[15-07-2022 22:56:33] Checking stay_inside_board.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/vector_get_length_on_axis
+[15-07-2022 22:56:33] Checking vector_get_length_on_axis.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/vector_get_length_on_axis/vector_get_length_on_axis.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/vector_get_length_on_axis/vector_get_length_on_axis.yy
+[15-07-2022 22:56:33] Par: "folders/Scripts" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/scripts/vector_get_length_on_axis/vector_get_length_on_axis.yy"
+[15-07-2022 22:56:33] Found Script: vector_get_length_on_axis
+[15-07-2022 22:56:33] Checking vector_get_length_on_axis.gml
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sequences
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/shaders
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sounds
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites
+[15-07-2022 22:56:33] Checking spr_shooter
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter
+[15-07-2022 22:56:33] Checking spr_dice
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice
+[15-07-2022 22:56:33] Checking spr_chip
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip
+[15-07-2022 22:56:33] Checking spr_campoint
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint
+[15-07-2022 22:56:33] Checking spr_camera
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera
+[15-07-2022 22:56:33] Checking spr_camcont
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont
+[15-07-2022 22:56:33] Checking spr_board
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board
+[15-07-2022 22:56:33] Checking spr_block
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block
+[15-07-2022 22:56:33] Checking spr_block.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block/spr_block.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block/spr_block.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block/spr_block.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_block
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block/layers
+[15-07-2022 22:56:33] Checking 1bc55efe-4ce3-479e-9905-107d3a8c8e11.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block/layers
+[15-07-2022 22:56:33] Checking 1bc55efe-4ce3-479e-9905-107d3a8c8e11
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block/layers/1bc55efe-4ce3-479e-9905-107d3a8c8e11
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_block/layers/1bc55efe-4ce3-479e-9905-107d3a8c8e11
+[15-07-2022 22:56:33] Checking dd9f5758-7b25-4416-aa93-fd68729c7801.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board
+[15-07-2022 22:56:33] Checking spr_board.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board/spr_board.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board/spr_board.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board/spr_board.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_board
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board/layers
+[15-07-2022 22:56:33] Checking aad01ec0-5a05-40f0-9ae8-9cd30765b8c2.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board/layers
+[15-07-2022 22:56:33] Checking aad01ec0-5a05-40f0-9ae8-9cd30765b8c2
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board/layers/aad01ec0-5a05-40f0-9ae8-9cd30765b8c2
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_board/layers/aad01ec0-5a05-40f0-9ae8-9cd30765b8c2
+[15-07-2022 22:56:33] Checking 1e9e64a3-b0a2-43e1-94c0-0ce426a9db16.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont
+[15-07-2022 22:56:33] Checking spr_camcont.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont/spr_camcont.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont/spr_camcont.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont/spr_camcont.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_camcont
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont/layers
+[15-07-2022 22:56:33] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont/layers
+[15-07-2022 22:56:33] Checking 89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camcont/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera
+[15-07-2022 22:56:33] Checking spr_camera.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera/spr_camera.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera/spr_camera.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera/spr_camera.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_camera
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera/layers
+[15-07-2022 22:56:33] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera/layers
+[15-07-2022 22:56:33] Checking 89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_camera/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint
+[15-07-2022 22:56:33] Checking spr_campoint.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint/spr_campoint.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint/spr_campoint.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint/spr_campoint.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_campoint
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint/layers
+[15-07-2022 22:56:33] Checking 89edb368-09d6-49be-8294-c26b9a63a279.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint/layers
+[15-07-2022 22:56:33] Checking 89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_campoint/layers/89edb368-09d6-49be-8294-c26b9a63a279
+[15-07-2022 22:56:33] Checking 91800d16-d80a-4123-b329-358cbaf21c2a.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip
+[15-07-2022 22:56:33] Checking spr_chip.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip/spr_chip.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip/spr_chip.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip/spr_chip.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_chip
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip/layers
+[15-07-2022 22:56:33] Checking be3127fa-5a81-4a1f-8da5-c2c1d77945b3.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip/layers
+[15-07-2022 22:56:33] Checking be3127fa-5a81-4a1f-8da5-c2c1d77945b3
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip/layers/be3127fa-5a81-4a1f-8da5-c2c1d77945b3
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_chip/layers/be3127fa-5a81-4a1f-8da5-c2c1d77945b3
+[15-07-2022 22:56:33] Checking 9031826b-594f-4b30-afe3-f98a84df7741.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice
+[15-07-2022 22:56:33] Checking spr_dice.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice/spr_dice.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice/spr_dice.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice/spr_dice.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_dice
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice/layers
+[15-07-2022 22:56:33] Checking 690ba873-13bb-450f-b5bc-42e9ed14b97f.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice/layers
+[15-07-2022 22:56:33] Checking 690ba873-13bb-450f-b5bc-42e9ed14b97f
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice/layers/690ba873-13bb-450f-b5bc-42e9ed14b97f
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_dice/layers/690ba873-13bb-450f-b5bc-42e9ed14b97f
+[15-07-2022 22:56:33] Checking e8ce2f90-624e-4c3a-82ca-6d9e6b15aadf.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter
+[15-07-2022 22:56:33] Checking spr_shooter.yy
+[15-07-2022 22:56:33] Parsing C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter/spr_shooter.yy
+[15-07-2022 22:56:33] Reading C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter/spr_shooter.yy
+[15-07-2022 22:56:33] Par: "folders/Sprites" at dir: "C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter/spr_shooter.yy"
+[15-07-2022 22:56:33] Found Sprite: spr_shooter
+[15-07-2022 22:56:33] Checking layers
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter/layers
+[15-07-2022 22:56:33] Checking fb81dfe5-5708-4e36-92dd-3e13ea7c9af8.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter/layers
+[15-07-2022 22:56:33] Checking fb81dfe5-5708-4e36-92dd-3e13ea7c9af8
+[15-07-2022 22:56:33] Directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter/layers/fb81dfe5-5708-4e36-92dd-3e13ea7c9af8
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/sprites/spr_shooter/layers/fb81dfe5-5708-4e36-92dd-3e13ea7c9af8
+[15-07-2022 22:56:33] Checking f6ce1adb-d2d1-4db9-aae6-2c7be243e706.png
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/tilesets
+[15-07-2022 22:56:33] Current parent directory: C:/Users/cooki/Documents/GitHub/gmtk2022/gmtk2022/timelines
+[15-07-2022 22:56:33] Moving files to trash...
+[15-07-2022 22:56:33] Files yeeted successfully!
+[15-07-2022 22:56:33] Generating YYP...
+[15-07-2022 22:56:33] gmtk2022.yyp created successfully!
