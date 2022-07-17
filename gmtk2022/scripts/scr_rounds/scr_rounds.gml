@@ -61,6 +61,7 @@ function start_round() {
 	//temporary game over
 	else {
 		with obj_elvis {
+			alarm[0] = -1;
 			say_line(vo_eat, function(){
 					room_goto(end_room);
 				}
