@@ -10,4 +10,9 @@ image_speed = 3;
 alarm[0] = 10
 landed = false;
 touchedBottom = false;
+
+last_bounce_coords = [x,y];
+last_bounce_patience = 16;
+last_bounce_patience_frame = current_time;
+touchedBottom = false;
 portal = -4;
