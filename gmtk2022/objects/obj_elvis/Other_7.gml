@@ -8,5 +8,10 @@ if global.elvis_done == true {
 		whendonetalking = -1
 	}
 }
+//temporary game over code
+if sprite_index == spr_elvis_eat {
+	game_restart()
+}
+
 sprite_index = getNextSprite(sprite_index)
 image_index = 0

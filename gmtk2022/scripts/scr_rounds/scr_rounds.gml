@@ -10,6 +10,7 @@ function start_play(){
 function end_round() {
 	
 	with obj_shooter can_shoot = false
+	
 	//Cuffs wins, payout
 	if global.cuffs_roll > global.house_roll {
 		global.money += global.payout
@@ -38,21 +39,30 @@ function end_round() {
 }
 
 function start_round() {
-	if global.money > BUY_IN {
+	if global.money >= BUY_IN && ds_list_size(global.levels) > 0 {
 		
-		if ++global.round == 4 {
+		var time = 80;
+		if ++global.round mod 5 == 0 {
 			global.round = 0
 			make_new_board()
+			time += 40
 		}
 		
 		roll_house()
 		
-		schedule(80, function() {
+		schedule(time, function() {
 			with obj_shooter {
 				has_dice = true
 				can_shoot = true
 			}
 		})
+	}
+	//temporary game over
+	else {
+		with obj_elvis {
+			sprite_index = spr_elvis_eat
+			image_index = 0
+		}
 	}
 }
 
@@ -66,7 +76,7 @@ function make_new_board() {
 	with obj_bumper {
 		clear_item()
 	}
-	
+	schedule(8, start_new_level)
 	
 }
 
@@ -77,4 +87,10 @@ function clear_item() {
 		image_speed = 0
 	}
 	instance_destroy()
+}
+
+function start_new_level() {
+	var i = global.levels[| 0];
+	level_load_ext(i)
+	ds_list_delete(global.levels, 0)
 }

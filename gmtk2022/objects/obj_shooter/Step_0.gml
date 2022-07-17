@@ -21,7 +21,7 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 	//Shoot chips
 	if instance_exists(obj_dice) {
 		//Zone where chips cannot be shot to stop people from wasting chips
-		if (abs(obj_dice.y - obj_board.bbox_bottom) >  55) {
+		if (abs(obj_dice.y - obj_board.bbox_bottom) >  55) && global.money > 100 {
 			with instance_create_layer(x, y, "Projectiles", obj_chip) {
 				motion_set(other.gunangle, 13)
 				global.money -= 100
