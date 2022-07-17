@@ -6,7 +6,10 @@ bounciness = 0
 
 gunangle = 0
 friction = .5
-sprite_list = [spr_hand_idle_a, spr_hand_cast, spr_hand_idle_b, spr_hand_thanos_snap];
-nodice_timer = 30;
+sprite_index = spr_hand_idle_a
+
 dash_timer = 0;
 dash_direction = 0;
+
+has_dice = false
+can_shoot = false

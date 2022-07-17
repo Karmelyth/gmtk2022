@@ -32,3 +32,5 @@ if other.is_destructible{
 		instance_destroy(other);
 	}
 }
+
+roll_cuffs()

@@ -1,8 +1,8 @@
 {
 	image_index = 0;
-	if sprite_index = sprite_list[1]{
-		sprite_index = sprite_list[2];
-	}else if sprite_index = sprite_list[3]{
-		sprite_index = sprite_list[2];	
+	if sprite_index = spr_hand_cast {
+		sprite_index = spr_hand_idle_b;
+	}else if sprite_index = spr_hand_thanos_snap {
+		sprite_index = spr_hand_idle_b;	
 	}
 }

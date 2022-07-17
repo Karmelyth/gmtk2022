@@ -17,16 +17,17 @@ var _editor = false;
 if instance_exists(obj_board){
 	_editor = obj_board.editor;	
 }
-if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) {
+if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) && can_shoot {
 	//Shoot chips
 	if instance_exists(obj_dice) {
 		//Zone where chips cannot be shot to stop people from wasting chips
 		if (abs(obj_dice.y - obj_board.bbox_bottom) >  55) {
 			with instance_create_layer(x, y, "Projectiles", obj_chip) {
 				motion_set(other.gunangle, 13)
+				global.money -= 100
 			}
 			sound_play_pitch(choose(snd_chip_throw1, snd_chip_throw2), 1)
-			sprite_index = sprite_list[3];
+			sprite_index = spr_hand_thanos_snap;
 			image_index = 0;
 		}
 	}
@@ -36,8 +37,10 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 			motion_set(other.gunangle, 18)
 		}
 		sound_play_pitch(snd_die_throw, 1)
-		sprite_index = sprite_list[1];
+		sprite_index = spr_hand_cast;
+		has_dice = false
 		image_index = 0;
+		start_play()
 	}
 }
 
@@ -48,12 +51,4 @@ if mouse_check_button_pressed(mb_right) && dash_timer <= 0{
 }
 if (--dash_timer){
 	hspeed = sign(dash_direction) * 14;
-}
-// Return the dice to your hand after 1.5 seconds
-if instance_exists(obj_dice){
-	nodice_timer = 45;	
-}else{
-	if(nodice_timer && !--nodice_timer) && sprite_index != sprite_list[0]{
-		sprite_index = sprite_list[0];	
-	}
 }
