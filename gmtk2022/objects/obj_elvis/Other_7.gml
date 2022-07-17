@@ -9,8 +9,8 @@ if global.elvis_done == true {
 	}
 }
 //temporary game over code
-if sprite_index == spr_elvis_eat {
-	game_restart()
+if sprite_index == spr_elvis_eat{
+	// game_restart()
 }
 
 sprite_index = getNextSprite(sprite_index)

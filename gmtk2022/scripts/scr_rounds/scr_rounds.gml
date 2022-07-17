@@ -39,7 +39,7 @@ function end_round() {
 }
 
 function start_round() {
-	if global.money >= BUY_IN && ds_list_size(global.levels) > 0 {
+	if (false){//global.money >= BUY_IN && ds_list_size(global.levels) > 0 {
 		
 		var time = 80;
 		if ++global.round mod 5 == 0 {
@@ -61,8 +61,10 @@ function start_round() {
 	//temporary game over
 	else {
 		with obj_elvis {
-			sprite_index = spr_elvis_eat
-			image_index = 0
+			say_line(vo_eat, function(){
+					room_goto(end_room);
+				}
+			);
 		}
 	}
 }
@@ -93,5 +95,6 @@ function clear_item() {
 function start_new_level() {
 	var i = global.levels[| 0];
 	level_load_ext(i)
+	say_line(choose(vo_startboard01, vo_startboard02), -1);
 	ds_list_delete(global.levels, 0)
 }
