@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.3,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_bumper_hit.ogg",
-  "duration": 0.768844,
+  "soundFile": "snd_dash2.ogg",
+  "duration": 0.513379,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_bumper_hit",
+  "name": "snd_dash2",
   "tags": [],
   "resourceType": "GMSound",
 }

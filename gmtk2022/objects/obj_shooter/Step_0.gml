@@ -46,10 +46,12 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 
 // Dash
 var _input = button_check(inputs.right) - button_check(inputs.left)
-if mouse_check_button_pressed(mb_right) && dash_timer <= 7 && _input != 0{
+if mouse_check_button_pressed(mb_right) && dash_timer <= 8 && _input != 0{
 	dash_timer = 20;
 	dash_direction = _input;
+	sound_play_pitch(choose(snd_dash1, snd_dash2), 1);
 }
 if (--dash_timer){
+	instance_create_depth(x, random_range(bbox_top, bbox_bottom), depth + 1, obj_dash)
 	hspeed = sign(dash_direction) * 15;
 }

@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.3,
+  "volume": 0.12,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_bumper_hit.ogg",
+  "soundFile": "snd_bumper_hit_quiet.ogg",
   "duration": 0.768844,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_bumper_hit",
+  "name": "snd_bumper_hit_quiet",
   "tags": [],
   "resourceType": "GMSound",
 }
