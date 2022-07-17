@@ -20,13 +20,14 @@ if global.payoutLast != global.payout {
 	global.payoutLast = floor(global.payoutLast)
 }
 
-
-for (var i = 0; i < ds_list_size(delays); i++) {
-	var o = delays[| i];
-	o.time -= 1;
-	if o.time <= 0 {
-		o.func()
-		ds_list_delete(delays, i)
-		i--
+if !elvis_is_speaking() {
+	for (var i = 0; i < ds_list_size(delays); i++) {
+		var o = delays[| i];
+		o.time -= 1;
+		if o.time <= 0 {
+			o.func()
+			ds_list_delete(delays, i)
+			i--
+		}
 	}
 }

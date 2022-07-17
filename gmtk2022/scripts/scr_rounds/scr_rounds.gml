@@ -41,7 +41,7 @@ function end_round() {
 		var good = global.rounds > 50;
 		if good {
 			say_line(vo_endgame_win, function(){
-					with instance_create_layer(x, y, layer, obj_fade_to) {
+					with instance_create_layer(0, 0, "FX", obj_fade_to) {
 						destination = results_screen
 					}
 				}
@@ -49,7 +49,7 @@ function end_round() {
 		}
 		else {
 			say_line(vo_endgame_lose, function(){
-					with instance_create_layer(x, y, layer, obj_fade_to) {
+					with instance_create_layer(0, 0, "FX", obj_fade_to) {
 						destination = results_screen
 					}
 				}

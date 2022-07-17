@@ -6,7 +6,7 @@
 		on_pick = function(){
 			if global.money >= 100{
 				say_line(choose(vo_buysandwich01, vo_buysandwich02, vo_buysandwich03, vo_buysandwich04), function() {
-					say_line(vo_eat, -1);
+					schedule(5, function() {say_line(vo_eat, -1)});
 				})
 				global.money -= 100;
 			}
