@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 randomize()
-global.money = 999996000
+global.money = 6000
 global.moneyLast = 0
 
 global.payout = 0

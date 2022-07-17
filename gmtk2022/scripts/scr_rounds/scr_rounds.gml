@@ -39,7 +39,7 @@ function end_round() {
 }
 
 function start_round() {
-	if (false){//global.money >= BUY_IN && ds_list_size(global.levels) > 0 {
+	if global.money >= BUY_IN && ds_list_size(global.levels) > 0 {
 		
 		var time = 80;
 		if ++global.round mod 5 == 0 {
