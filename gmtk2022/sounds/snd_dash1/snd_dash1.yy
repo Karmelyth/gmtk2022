@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_dash1.ogg",
-  "duration": 1.130159,
+  "duration": 0.553175,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

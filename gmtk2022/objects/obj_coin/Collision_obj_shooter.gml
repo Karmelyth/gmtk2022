@@ -8,6 +8,6 @@ repeat(1){
 	}
 }
 global.money += value
-sound_play_pitch(snd_coin, random_range(.8, 1.2));
+sound_play_pitch(sound, random_range(.8, 1.2));
 
 instance_destroy(self)
