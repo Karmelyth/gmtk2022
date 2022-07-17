@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 
-global.money = 100000
+global.money = 5000
 global.moneyLast = 0

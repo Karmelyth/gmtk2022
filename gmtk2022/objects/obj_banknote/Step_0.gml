@@ -20,4 +20,3 @@ else {
 	maxspeed = 100;
 }
 
-if y > obj_shooter.bbox_bottom - 2 instance_destroy();

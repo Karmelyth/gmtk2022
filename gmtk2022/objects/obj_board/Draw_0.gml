@@ -1,5 +1,9 @@
 {
 	draw_self();
+	
+	draw_sprite_ext(spr_board_bg, 0, x, y, (image_xscale - 12/TILE_WIDTH) * 2/3, (image_yscale - 12/TILE_WIDTH) * 2/3, image_angle, image_blend, image_alpha)
+    draw_sprite_ext(spr_board_border, 0, x, y, 1, 1, image_angle, image_blend, image_alpha)
+	
 	if(editor){
 		draw_text(camera_get_view_x(0) + 8, camera_get_view_y(0) + 8, 
 		@"Mouse Wheel: Change brick

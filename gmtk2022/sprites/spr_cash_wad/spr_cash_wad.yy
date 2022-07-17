@@ -38,7 +38,7 @@
     "spriteId": {"name":"spr_cash_wad","path":"sprites/spr_cash_wad/spr_cash_wad.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

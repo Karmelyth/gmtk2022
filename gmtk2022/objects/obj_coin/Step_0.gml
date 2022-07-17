@@ -17,9 +17,9 @@ if (hit_timer && !--hit_timer){
 }
 
 //Landing on the ground
-if y >= obj_shooter.y || landed{
+if bbox_bottom >= obj_board.bbox_bottom || landed{
 	speed = 0;
-	y = obj_shooter.y;
+	y = obj_board.bbox_bottom - (bbox_bottom - y + 10)
 	landed = true;
 }
 

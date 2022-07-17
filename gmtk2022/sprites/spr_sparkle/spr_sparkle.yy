@@ -38,7 +38,7 @@
     "spriteId": {"name":"spr_sparkle","path":"sprites/spr_sparkle/spr_sparkle.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
