@@ -25,3 +25,4 @@ schedule(120, function() {
 })
 
 global.elvis_sound = -1
+alarm[0] = room_speed * 30;

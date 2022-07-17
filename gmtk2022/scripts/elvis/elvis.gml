@@ -1,8 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function say_line(sound, _func = -1) {
+	if variable_global_exists("elvis_sound"){
+		audio_stop_sound(global.elvis_sound);
+	}
 	global.elvis_sound = sound_play_pitch(sound, 1)
 	with obj_elvis {
+		alarm[0] = room_speed * 30;
 		whendonetalking = _func
 		sprite_index = spr_elvis_talk_start
 		if sound == vo_eat{
