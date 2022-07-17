@@ -22,3 +22,12 @@ function get_number_index(str) {
 		default: return floor(real(str))
 	}
 }
+
+function get_short_money(money) {
+	if money >= 100000 {
+		money /= 1000
+		money = floor(money)
+		return string(money) + "k"
+	}
+	return string(money)
+}
