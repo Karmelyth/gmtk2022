@@ -5,6 +5,7 @@ function say_line(sound, _func = -1) {
 		audio_stop_sound(global.elvis_sound);
 	}
 	global.elvis_sound = sound_play_pitch(sound, 1)
+	//audio_sound_gain(global.elvis_sound, 1.5, 0)
 	with obj_elvis {
 		alarm[0] = room_speed * 30;
 		whendonetalking = _func

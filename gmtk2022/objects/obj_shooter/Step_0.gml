@@ -13,11 +13,13 @@ if gunangle > 180{
 
 //image_xscale = ((gunangle + 270) % 360) < 180 ? -1 : 1;
 //image_angle = gunangle - 90;
-var _editor = false;
+var _editor = false,
+	inBoard = false;
 if instance_exists(obj_board){
 	_editor = obj_board.editor;	
+	inBoard = point_in_rectangle(mouse_x, mouse_y, obj_board.bbox_left, obj_board.bbox_top, obj_board.bbox_right, obj_board.bbox_bottom)
 }
-if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) && can_shoot {
+if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) && can_shoot && inBoard {
 	//Shoot chips
 	if instance_exists(obj_dice) {
 		//Zone where chips cannot be shot to stop people from wasting chips
@@ -29,6 +31,10 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 			sound_play_pitch(choose(snd_chip_throw1, snd_chip_throw2), 1)
 			sprite_index = spr_hand_thanos_snap;
 			image_index = 0;
+			with obj_cuffs {
+				sprite_index = spr_cuffs_shoot
+				image_index = 0
+			}
 		}
 	}
 	//Shoot dice
@@ -41,6 +47,10 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 		has_dice = false
 		image_index = 0;
 		start_play()
+		with obj_cuffs {
+			sprite_index = spr_cuffs_shoot
+			image_index = 0
+		}
 	}
 }
 

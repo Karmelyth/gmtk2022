@@ -17,6 +17,24 @@ function draw_money(_x, _y, moneyString) {
 	draw_sprite(spr_dollar, -1, xsaved, _y)
 }
 
+function draw_profit(_x, _y, moneyString) {
+
+	var xsaved = _x;
+	
+	_x += 50
+	draw_sprite(spr_money_back, 0, _x, _y)
+	
+	_x += 48 * (5 - string_length(moneyString))
+
+
+	var color = (string_count("-", moneyString) ? c_red : c_lime)
+	for (var i = 1; i <= string_length(moneyString); i++) { // Fixed
+		draw_sprite_ext(spr_numbers_white, get_number_index(string_char_at(moneyString, i)), _x + (48 * (i - 1)), _y, 1, 1, 0, color, 1)
+	}
+	
+	draw_sprite(spr_profits, -1, xsaved, _y)
+}
+
 function draw_payout(_x, _y, moneyString) {
 
 	var xsaved = _x;
@@ -32,6 +50,7 @@ function draw_payout(_x, _y, moneyString) {
 function get_number_index(str) {
 	switch(str) {
 		case "k": return 10
+		case "-": return 11
 		default: return floor(real(str))
 	}
 }
