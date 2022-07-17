@@ -7,7 +7,6 @@ function on_dice_bounce(dice){
 	dice.image_index += choose(1,1,2);
 	dice.image_speed += 0.5;
 	with(dice){
-		last_bounce_coords = [x, y];
 		if last_bounce_patience_frame < current_time{
 			if point_distance(x,y,last_bounce_coords[0],last_bounce_coords[1]) < TILE_WIDTH{
 				var _last_patience = last_bounce_patience
@@ -33,8 +32,9 @@ function on_dice_bounce(dice){
 						say_line(vo_impatient04,-1);	
 					}
 				}
-			}else last_bounce_patience = min(10,last_bounce_patience);
+			}else last_bounce_patience = min(16,last_bounce_patience);
 		}
+		last_bounce_coords = [x, y];
 	}
 	sound_play_pitch(snd_die_hit_peg, random_range(0.8, 1.2));
 }
