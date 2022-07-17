@@ -23,3 +23,13 @@ if stay_inside_board() {
 	sound_play_pitch(snd_die_hit_wall, random_range(.9, 1.1))
 	extraspeed = 0;
 }
+
+// When the dice explodes. Anti-softlock check
+if image_blend = c_dkgray{
+	if random(6) < 1{
+		with(instance_create_layer(x, y, "Projectiles", obj_hit_medium)){
+			x += random_range(-8,8);
+			y += random_range(-8,8);
+		}
+	}
+}
