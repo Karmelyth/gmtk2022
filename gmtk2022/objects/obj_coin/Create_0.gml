@@ -7,4 +7,4 @@ hit_timer = 0;
 maxspeed = 16
 image_speed = 1;
 landed = false;
-fade = round(room_speed * 2);
+fade = round(room_speed * 1.5);

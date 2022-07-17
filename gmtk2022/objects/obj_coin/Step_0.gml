@@ -18,8 +18,12 @@ if (hit_timer && !--hit_timer){
 
 //Landing on the ground
 if bbox_bottom >= obj_board.bbox_bottom || landed{
-	speed = 0;
-	y = obj_board.bbox_bottom - (bbox_bottom - y + 10)
+	if !landed{
+		hspeed /= 2;
+		gravity += .3;
+		vspeed = -5;
+	}
+	y = min(y, obj_board.bbox_bottom - (bbox_bottom - y + 10)) - 1;
 	landed = true;
 }
 
@@ -42,5 +46,5 @@ if landed{
 		exit;
 	}
 }else{
-	fade = round(room_speed);
+	fade = round(room_speed * 1.5);
 }

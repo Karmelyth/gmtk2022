@@ -21,4 +21,5 @@ if (instance_exists(obj_board)) {
 //True when bouncing
 if stay_inside_board() {
 	sound_play_pitch(snd_die_hit_wall, random_range(.9, 1.1))
+	extraspeed = 0;
 }

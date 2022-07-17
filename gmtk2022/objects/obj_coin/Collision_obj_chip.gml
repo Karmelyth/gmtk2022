@@ -7,4 +7,7 @@ repeat(6){
 		friction = .1;
 	}
 }
+global.money += 15
+sound_play_pitch(snd_coin, random_range(.8, 1.2));
+
 instance_destroy(self)

@@ -1,5 +1,5 @@
 
-speed = clamp(speed, -maxspeed, maxspeed)
+speed = clamp(speed + extraspeed, -maxspeed - extraspeed, maxspeed + extraspeed)
 
 //Going down
 if vspeed > 0 {
@@ -16,7 +16,10 @@ if (hit_timer && !--hit_timer){
 	}
 }
 
+extraspeed -= .07;
+extraspeed = max(extraspeed, 0);
 
+if vspeed > 0 vspeed = min(vspeed, 6 + extraspeed);
 /*//Landing on the ground
 if y >= obj_shooter.y || landed{
 	speed = 0;

@@ -5,3 +5,4 @@
 // Inherit the parent event
 event_inherited();
 my_health = 2;
+drop_chance = 19;

@@ -6,3 +6,4 @@
 event_inherited();
 my_health = 999999;
 is_destructible = false;
+drop_amount = 0;

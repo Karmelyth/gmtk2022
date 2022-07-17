@@ -7,4 +7,5 @@ repeat(6){
 		friction = .1;
 	}
 }
+global.money += 100
 instance_destroy(self)

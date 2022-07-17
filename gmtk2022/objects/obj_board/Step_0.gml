@@ -40,6 +40,8 @@ if !(editor) && keyboard_check_pressed(vk_home){
 }
 
 	if(editor){
+		with(par_collectible) instance_destroy(self, false);
+		
 		draw_text(camera_get_view_x(0) + 8, camera_get_view_y(0) + 8, 
 		@"Mouse Wheel: Change brick
 		Left Click: Place brick (hold Shift to place many)

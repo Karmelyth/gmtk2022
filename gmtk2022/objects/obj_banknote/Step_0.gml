@@ -20,3 +20,4 @@ else {
 	maxspeed = 100;
 }
 
+if !irandom(room_speed * 2) sound_play_pitch(choose(snd_bill_1, snd_bill_2), random_range(.8, 1.1));

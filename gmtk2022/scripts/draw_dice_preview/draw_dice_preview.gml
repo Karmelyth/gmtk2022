@@ -11,7 +11,7 @@ function draw_dice_preview(_x, _y, gunangle) {
 		gravity_base = .25
 		gravity = gravity_base
 		friction = .03
-		maxspeed = 16
+		maxspeed = 14
 
 		motion_set(gunangle, 18)
 		
