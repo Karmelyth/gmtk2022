@@ -41,7 +41,7 @@
 		if keyboard_check_pressed(vk_enter){
 			var _json = {}, i = 0;
 			with(par_bricklike){
-				variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_index });
+				variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
 				i ++;
 			}
 			_json = json_stringify(_json);
