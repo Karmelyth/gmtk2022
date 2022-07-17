@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "msk_hand",
+    "path": "sprites/msk_hand/msk_hand.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
