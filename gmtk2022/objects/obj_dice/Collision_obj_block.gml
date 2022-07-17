@@ -39,7 +39,7 @@ if other.is_destructible{
 	}
 }
 
-if other.object_index == obj_coin_pouch{
+if other.object_index != obj_block_metal{
 	roll_cuffs()
 }
 
