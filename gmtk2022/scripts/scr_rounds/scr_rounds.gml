@@ -39,7 +39,17 @@ function end_round() {
 }
 
 function start_round() {
+	with(obj_popup) sprite_index = spr_popup_end;
 	if global.money >= BUY_IN && ds_list_size(global.levels) > 0 {
+		// Sandwich
+		if random(15) < 1{
+			with(obj_board){
+		        var _wid = bbox_right - bbox_left - (272/2), hig = (bbox_bottom - bbox_top - 240)
+		        with(instance_create_layer(bbox_left + (272/2) + random(_wid), bbox_top + 80 + random(hig), "Portraits", obj_popup)){
+		            // Yes    
+		        }
+		    }   	
+		}
 		
 		var time = 80;
 		if ++global.round mod 5 == 0 {
@@ -49,7 +59,6 @@ function start_round() {
 		}
 		
 		roll_house()
-		
 		schedule(time, function() {
 			with obj_shooter {
 				has_dice = true
