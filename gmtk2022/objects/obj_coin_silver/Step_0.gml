@@ -1,3 +1,4 @@
+/// @description Insert description here
 
 speed = clamp(speed, -maxspeed, maxspeed)
 
@@ -24,8 +25,8 @@ if bbox_bottom >= obj_board.bbox_bottom || landed{
 if bbox_bottom >= obj_board.bbox_bottom - 6{
 	y = yprevious;
 	hspeed /= 2;
-	gravity = .4;
-	vspeed = -5;
+	gravity = .5;
+	vspeed = -8;
 	landed = true;
 }
 

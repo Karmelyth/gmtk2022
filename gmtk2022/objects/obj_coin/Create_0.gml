@@ -7,4 +7,7 @@ hit_timer = 0;
 maxspeed = 16
 image_speed = 1;
 landed = false;
+value = 15;
 fade = round(room_speed * 1.5);
+portal = -4;
+alarm[0] = 1
