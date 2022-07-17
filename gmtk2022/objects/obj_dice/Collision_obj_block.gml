@@ -1,6 +1,6 @@
 /// @description bounce off this mfer
 // You can write your code in this editor
-
+if image_blend = c_dkgray exit;
 x = xprevious
 y = yprevious
 

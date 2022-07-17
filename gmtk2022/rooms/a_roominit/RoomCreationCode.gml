@@ -1,4 +1,4 @@
 {
 	scrinit();
-	room_goto(room_test);
+	room_goto(intro_room);
 }
