@@ -9,6 +9,8 @@ function start_play(){
 
 function end_round() {
 	
+	global.rounds += 1
+	
 	with obj_shooter can_shoot = false
 	
 	//Cuffs wins, payout
@@ -35,7 +37,29 @@ function end_round() {
 		image_index = 0
 	}
 	
-	if !obj_board.editor schedule(30, function() {start_round()})
+	if global.rounds > 50 || global.money < BUY_IN {
+		var good = global.rounds > 50;
+		if good {
+			say_line(vo_endgame_win, function(){
+					with instance_create_layer(x, y, layer, obj_fade_to) {
+						destination = results_screen
+					}
+				}
+			)
+		}
+		else {
+			say_line(vo_endgame_lose, function(){
+					with instance_create_layer(x, y, layer, obj_fade_to) {
+						destination = results_screen
+					}
+				}
+			)
+		}
+	}
+	
+	else {
+		if !obj_board.editor schedule(30, function() {start_round()})
+	}
 }
 
 function start_round() {
@@ -66,16 +90,6 @@ function start_round() {
 				sprite_index = spr_hand_idle_a;
 			}
 		})
-	}
-	//temporary game over
-	else {
-		with obj_elvis {
-			alarm[0] = -1;
-			say_line(vo_eat, function(){
-					room_goto(end_room);
-				}
-			);
-		}
 	}
 }
 
