@@ -5,6 +5,9 @@ function say_line(sound, _func = -1) {
 	with obj_elvis {
 		whendonetalking = _func
 		sprite_index = spr_elvis_talk_start
+		if sound == vo_eat{
+			sprite_index = spr_elvis_eat	
+		}
 		image_index = 0
 	}
 }
@@ -19,6 +22,9 @@ function getNextSprite (current_sprite) {
 				return spr_elvis_talk_end
 			}
 			return spr_elvis_talk_loop
+		case spr_elvis_eat:
+			return spr_elvis_talk_loop;
+		break;
 		default:
 			return spr_elvis_idle
 	}
