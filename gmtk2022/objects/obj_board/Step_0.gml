@@ -35,6 +35,7 @@ function fill_with_bricks(x1,y1,x2,y2){
 if !(editor) && keyboard_check_pressed(vk_home){
 	with(par_collectible) instance_destroy(self, false);
 	with(par_bricklike) instance_destroy(self, false);
+	end_round()
 	editor = true;
 }
 
@@ -92,6 +93,9 @@ if !(editor) && keyboard_check_pressed(vk_home){
 			level_load(0);
 		}
 		if keyboard_check_pressed(vk_backspace){
-			editor = false;	
+			editor = false;
+			global.round = 0
+			start_round()
+			global.money = 5000
 		}
 	}

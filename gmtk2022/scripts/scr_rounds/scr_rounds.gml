@@ -34,7 +34,7 @@ function end_round() {
 		image_index = 0
 	}
 	
-	schedule(30, function() {start_round()})
+	if !obj_board.editor schedule(30, function() {start_round()})
 }
 
 function start_round() {
