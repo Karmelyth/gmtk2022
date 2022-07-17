@@ -36,5 +36,4 @@ function on_dice_bounce(dice){
 		}
 		last_bounce_coords = [x, y];
 	}
-	sound_play_pitch(snd_die_hit_peg, random_range(0.8, 1.2));
 }

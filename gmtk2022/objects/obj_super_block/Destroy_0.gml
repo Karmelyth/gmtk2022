@@ -1,8 +1,8 @@
 event_inherited();
-sound_play_pitch(snd_bag_hit, 0.5);
+sound_play_pitch(snd_explo, 1);
 for(var i = 0;i<=30;i++){
 	for(var o = -1;o<=1;o+=2){
-		with(instance_create_layer(x + (TILE_WIDTH * i * o), y, "Projectiles", obj_hit_medium)){
+		with(instance_create_layer(x + (TILE_WIDTH * i * o), y, "Projectiles", obj_explosion)){
 			image_angle = random(360);
 			stay_inside_board();
 			with(collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,obj_block,0,1)){

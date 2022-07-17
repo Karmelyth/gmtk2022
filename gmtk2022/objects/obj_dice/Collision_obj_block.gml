@@ -15,6 +15,8 @@ instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_small)
 
 
 on_dice_bounce(self)
+var _metal = other.object_index == obj_block_metal;
+sound_play_pitch(_metal ? snd_hitmetal : snd_die_hit_peg, _metal ? 1.6 * random_range(0.8, 1.2): random_range(0.8, 1.2));
 
 if other.object_index == obj_coin_pouch{
 
