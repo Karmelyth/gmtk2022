@@ -8,7 +8,7 @@ x = xprevious
 y = yprevious
 
 var dir = point_direction(other.x, other.y, x, y);
-motion_set(dir, min(speed + 4, 24))
+motion_set(dir, min(speed + 3, 18))
 move_outside_all(dir, 8)
 
 sound_play_pitch(snd_bumper_hit_quiet, random_range(1.2, 1.4));

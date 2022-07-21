@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "blocks",
-    "path": "folders/objects/blocks.yy",
+    "name": "pickups",
+    "path": "folders/objects/pickups.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_banknote",

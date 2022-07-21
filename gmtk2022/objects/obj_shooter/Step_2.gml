@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-stay_inside_board()
+if stay_inside_board(){
+	dash_timer = 0;
+}

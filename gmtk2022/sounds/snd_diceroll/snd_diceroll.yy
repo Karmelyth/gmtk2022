@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_diceroll.ogg",
-  "duration": 0.284059,
+  "duration": 1.532517,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

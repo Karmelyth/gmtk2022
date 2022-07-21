@@ -1,9 +1,11 @@
 /// @description Insert description here
-// You can write your code in this editor
+var _target = -4;
+with obj_portal{
+	if(index == other.index && id != other.id) _target = self;
+}
 
-var target = instance_furthest(x, y, obj_portal);
-if target != id && other.portal != target && other.portal != id{
-	other.x = target.x;
-	other.y = target.y;
-	other.portal = target;
+if other.portal != id{
+	other.x = _target.x;
+	other.y = _target.y;
+	other.portal = _target.id;
 }
