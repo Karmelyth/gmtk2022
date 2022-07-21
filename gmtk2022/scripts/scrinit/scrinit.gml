@@ -53,7 +53,11 @@ function level_load_ext(_i){
 	for(var i = 0;i<array_length(_keys);i++){
 		var _struct = variable_struct_get(global.levelData[_i],_keys[i]);
 		with(instance_create_layer(_struct.x, _struct.y, "Instances", asset_get_index(_struct.object_index))){
-			//show_debug_message("HAHA YES");	
+			switch object_index{
+				case obj_portal:
+					if variable_struct_exists(_struct, "index") index = _struct.index;
+					break;
+			}
 		}
 	}
 }

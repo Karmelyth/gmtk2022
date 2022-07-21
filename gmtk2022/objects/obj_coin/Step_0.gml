@@ -17,16 +17,8 @@ if (hit_timer && !--hit_timer){
 }
 
 //Landing on the ground
-if bbox_bottom >= obj_board.bbox_bottom || landed{
-	y = min(y, obj_board.bbox_bottom - (bbox_bottom - y + 10)) - 1;
-	landed = true;
-}
-if bbox_bottom >= obj_board.bbox_bottom - 6{
-	y = yprevious;
-	hspeed /= 2;
-	gravity = .4;
-	vspeed = -5;
-	landed = true;
+if (bbox_bottom >= obj_board.bbox_bottom-sprite_height/2){
+	event_perform(ev_other, ev_user0);
 }
 
 //FX
@@ -50,6 +42,4 @@ if landed{
 		instance_destroy();
 		exit;
 	}
-}else{
-	fade = round(room_speed * 1.5);
-}
+}else fade = maxfade;
