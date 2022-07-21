@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "objects",
-    "path": "folders/objects.yy",
+    "name": "dice",
+    "path": "folders/objects/dice.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dice",

@@ -63,7 +63,7 @@ if mouse_check_button_pressed(mb_right) && dash_timer <= 10 && _input != 0{
 }
 if (--dash_timer){
 	with instance_create_depth(x, random_range(bbox_top, bbox_bottom), depth + 1, obj_dash){
-		image_speed *= random_range(.9, 1.1);
+		image_speed *= random_range(.9, 1.2);
 		motion_add(other.direction, random(1) * -1);
 	}
 	hspeed = sign(dash_direction) * 15;

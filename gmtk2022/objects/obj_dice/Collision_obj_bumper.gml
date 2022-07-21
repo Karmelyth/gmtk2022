@@ -1,9 +1,7 @@
 /// @description wee
-if image_blend = c_dkgray exit;
-x = xprevious
-y = yprevious
-
-motion_set(image_angle, 12)
+var dir = point_direction(other.x, other.y, x, y);
+motion_set(dir, min(speed + 3, 18))
+move_outside_all(dir, 8)
 instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_small);
 other.sprite_index = spr_bumper_hit;
 other.image_index = 0;

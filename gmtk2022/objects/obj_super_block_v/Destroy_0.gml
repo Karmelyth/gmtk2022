@@ -7,7 +7,7 @@ for(var i = 0;i<=30;i++){
 			stay_inside_board();
 			with(collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,obj_block,0,1)){
 				if is_destructible && nexthurt <= current_time{
-					my_health--;
+					if is_destructible my_health--;
 					nexthurt = current_time + 5;
 					if my_health <= 0{
 						instance_destroy();

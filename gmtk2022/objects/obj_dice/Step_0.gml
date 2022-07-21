@@ -19,20 +19,9 @@ if (hit_timer && !--hit_timer){
 extraspeed -= .07;
 extraspeed = max(extraspeed, 0);
 
-if vspeed > 0 vspeed = min(vspeed, 7);
+if vspeed > 0 vspeed = min(vspeed, max_fallspeed);
 
 //Portal reset
 if portal > -4 && !place_meeting(x, y, portal){
 	portal = -4;
 }
-/*//Landing on the ground
-if y >= obj_shooter.y || landed{
-	speed = 0;
-	y = obj_shooter.y;
-	landed = true;
-}
-
-//Decide rolled value
-if landed{
-	image_speed = 0;
-}*/
