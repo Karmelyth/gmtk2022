@@ -1,7 +1,8 @@
 bounciness = .8
-gravity_base = .25
+//Was .25, changed when removing friction
+gravity_base = .26
 gravity = gravity_base
-friction = .03
+//friction = .03
 maxspeed = 14
 max_fallspeed = 7;
 extraspeed = 0;

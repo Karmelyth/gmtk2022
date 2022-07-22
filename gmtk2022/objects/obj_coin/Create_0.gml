@@ -1,8 +1,8 @@
 
 bounciness = .8
-gravity_base = .25
+gravity_base = .26
 gravity = gravity_base
-friction = .03
+//friction = .03
 hit_timer = 0;
 maxspeed = 16
 image_speed = 1;

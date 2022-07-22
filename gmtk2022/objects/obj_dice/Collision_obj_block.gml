@@ -7,10 +7,10 @@ y = yprevious
 var collision = {x: clamp(x, other.bbox_left, other.bbox_right), y: clamp(y, other.bbox_top, other.bbox_bottom)};
 
 var dir = point_direction(collision.x,collision.y, x, y);
-motion_add(dir + 180, vector_get_length_on_axis(speed, direction, dir) * 2)
-if (dir > 45 && dir < 225){
-	vspeed = min(vspeed, -5);
-}
+motion_add(dir, vector_get_length_on_axis(speed, direction, dir + 180) * 2)
+//if (dir > 45 && dir < 135){
+//	vspeed = min(vspeed, -5);
+//}
 instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_small);
 
 

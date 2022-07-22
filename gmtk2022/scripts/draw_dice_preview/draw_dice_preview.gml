@@ -8,12 +8,15 @@ function draw_dice_preview(_x, _y, gunangle) {
 		image_angle = 0
 		
 		bounciness = .8
-		gravity_base = .25
+		gravity_base = .26
 		gravity = gravity_base
-		friction = .03
+		//friction = .03
 		maxspeed = 14
+		portal = noone
 
 		motion_set(gunangle, 18)
+		
+		var points = [{"x": x, "y":y}];
 		
 		var tries = 0,
 			xLast = x,
@@ -45,16 +48,41 @@ function draw_dice_preview(_x, _y, gunangle) {
 			    y += vspeed;
 			}
 			
-			if (tries mod 2 == 1) {
-				draw_line_width_color(x, y, xLast, yLast, 3, c_white, c_white)
+			//if (tries mod 2 == 1) {
+			//	draw_line_width_color(x, y, xLast, yLast, 3, c_white, c_white)
+			//}
+			
+			//xLast = x
+			//yLast = y
+			
+			var dist = point_distance(xLast, yLast, x, y);
+			while dist >= 10 {
+				var dir = point_direction(xLast, yLast, x, y);
+				xLast += lengthdir_x(min(dist, 10), dir)
+				yLast += lengthdir_y(min(dist, 10), dir)
+				array_push(points, {"x": xLast, "y": yLast})
+				dist = point_distance(xLast, yLast, x, y);
+				//xLast = x
+				//yLast = y
 			}
 			
-			xLast = x
-			yLast = y
-			
 			//Collisions
-			if place_meeting(x, y, par_bricklike) {
-				break;
+			var brick = instance_place(x, y, par_bricklike);
+			if instance_exists(brick) {
+				if instance_is(brick, obj_portal) {
+					var tpX = x, tpY = y;
+					if brick.teleport(self) {
+						if array_length(points) mod 2 == 1 {
+							array_push(points, {"x": tpX, "y": tpY})
+						}
+						array_push(points, {"x": x, "y": y})
+						xLast = x
+						yLast = y
+					}
+				}
+				else {
+					break;
+				}
 			}
 			
 			//End Step
@@ -62,6 +90,12 @@ function draw_dice_preview(_x, _y, gunangle) {
 				break;
 			}
 			
+		}
+		
+		array_push(points, {"x": x, "y":y})
+		
+		for (var i = 1; i < array_length(points); i += 2) {
+			draw_line_width_color(points[i].x, points[i].y, points[i - 1].x, points[i - 1].y, 3, c_white, c_white)
 		}
 		
 		draw_circle_color(x, y, 5, c_white, c_white, true)
