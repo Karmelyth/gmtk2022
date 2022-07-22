@@ -19,7 +19,9 @@ if (hit_timer && !--hit_timer){
 extraspeed -= .07;
 extraspeed = max(extraspeed, 0);
 
-if vspeed > 0 vspeed = min(vspeed, max_fallspeed);
+while(vspeed > max_fallspeed){
+	speed -= .25;
+}
 
 //Portal reset
 if portal > -4 && !place_meeting(x, y, portal){

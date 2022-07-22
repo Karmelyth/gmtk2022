@@ -97,12 +97,6 @@ function make_new_board() {
 	with par_bricklike {
 		clear_item()
 	}
-	with par_collectible {
-		clear_item()
-	}
-	with obj_bumper {
-		clear_item()
-	}
 	schedule(8, start_new_level)
 	
 }
@@ -113,7 +107,7 @@ function clear_item() {
 		image_index = other.image_index
 		image_speed = 0
 	}
-	instance_destroy()
+	instance_destroy(self, false);
 }
 
 function start_new_level() {

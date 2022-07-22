@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_launcher",
-    "path": "sprites/spr_launcher/spr_launcher.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -35,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "blocks",
-    "path": "folders/objects/blocks.yy",
+    "name": "launcher",
+    "path": "folders/objects/blocks/launcher.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_launcher",

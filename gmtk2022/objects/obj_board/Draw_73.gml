@@ -1,8 +1,9 @@
-var _str = @"Mouse Wheel: Change brick
+var _str =
+	@"Mouse Wheel: Change brick     Q & E: Change brick version
 	Left Click: Place brick (hold Shift to place many)
 	Right Click: Un-place brick (hold Shift to un-place many)
-	Enter: Output to file
-	Backspace: Close editor
+	Enter: Output to file (Copies to clipboard too)
+	Home: Close editor     Delete: Clear level
 	Space: Load an implemented level
 		
 	Copypaste the contents of output.txt and put it into global.levelData (in scrinit)
@@ -12,14 +13,20 @@ if(editor){
 	draw_text(camera_get_view_x(0) + 8, camera_get_view_y(0) + 8, _str);
 	
 	var _c = canplace ? c_lime : c_red;
-	gpu_set_fog(true, _c, 0, 0);
-	draw_sprite(entity_sprite[entity_num],image_index,mx - 1,my);
-	draw_sprite(entity_sprite[entity_num],image_index,mx + 1,my);
-	draw_sprite(entity_sprite[entity_num],image_index,mx,my - 1);
-	draw_sprite(entity_sprite[entity_num],image_index,mx,my + 1);
-	gpu_set_fog(false, _c, 0, 0);
+	if(canplace){
+		gpu_set_fog(true, _c, 0, 0);
+		draw_sprite(current_sprite,image_index,mx - 1,my);
+		draw_sprite(current_sprite,image_index,mx + 1,my);
+		draw_sprite(current_sprite,image_index,mx,my - 1);
+		draw_sprite(current_sprite,image_index,mx,my + 1);
+		gpu_set_fog(false, _c, 0, 0);
+	}else{
+		gpu_set_fog(true, _c, 0, 0);
+		draw_sprite(current_sprite,image_index,mx,my);
+		gpu_set_fog(false, _c, 0, 0);
+	}
 	
 	draw_set_alpha(.7);
-	draw_sprite(entity_sprite[entity_num],image_index,mx,my);
+	draw_sprite(current_sprite,image_index,mx,my);
 	draw_set_alpha(1);
 }

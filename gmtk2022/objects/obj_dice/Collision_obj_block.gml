@@ -8,11 +8,10 @@ var collision = {x: clamp(x, other.bbox_left, other.bbox_right), y: clamp(y, oth
 
 var dir = point_direction(collision.x,collision.y, x, y);
 motion_add(dir, vector_get_length_on_axis(speed, direction, dir + 180) * 2)
-//if (dir > 45 && dir < 135){
-//	vspeed = min(vspeed, -5);
-//}
-instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_small);
 
+if vspeed < 0 && speed > 2 vspeed = min(vspeed, -4);
+
+instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_small);
 
 on_dice_bounce(self)
 var _metal = !other.is_destructible;
@@ -39,9 +38,7 @@ if other.is_destructible{
 	if other.my_health <= 0{
 		instance_destroy(other);
 	}
-}
-
-if other.object_index != obj_block_metal{
+	
 	roll_cuffs()
 }
 

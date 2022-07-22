@@ -29,6 +29,13 @@ function getInput(inputName, inputType) {
 		case (inputs.left):
 			keys = ["A", vk_left]
 			break
+			
+		case(inputs.turn_left):
+			keys = ["Q"];
+			break
+		case(inputs.turn_right):
+			keys = ["E"];
+			break
 		
 		case (inputs.menu_use):
 			keys = [mb_left]; mb = true;
@@ -77,6 +84,8 @@ enum inputs {
 	menu_use,
 	menu_cancel,
 	menu_select,
+	turn_left,
+	turn_right
 }
 
 enum inputTypes {

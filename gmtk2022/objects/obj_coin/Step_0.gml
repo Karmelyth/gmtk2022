@@ -35,7 +35,7 @@ if portal > -4 && !place_meeting(x, y, portal){
 if landed{
 	fade--;
 	var _frequency = 7;
-	if fade <= _frequency * 5{
+	if fade <= room_speed{
 		image_alpha = (fade mod _frequency >= (_frequency / 2));
 	}
 	if fade <= 0{

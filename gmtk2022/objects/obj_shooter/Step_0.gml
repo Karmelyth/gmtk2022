@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 scr_movement()
 
 
@@ -60,6 +59,10 @@ if mouse_check_button_pressed(mb_right) && dash_timer <= 10 && _input != 0{
 	dash_timer = 20;
 	dash_direction = _input;
 	sound_play_pitch(choose(snd_dash1, snd_dash2), 1);
+	if !has_dice{
+		sprite_index = spr_hand_dash;
+		image_index = 0;
+	}
 }
 if (--dash_timer){
 	with instance_create_depth(x, random_range(bbox_top, bbox_bottom), depth + 1, obj_dash){

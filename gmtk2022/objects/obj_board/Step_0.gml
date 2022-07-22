@@ -31,94 +31,127 @@ function fill_with_bricks(x1,y1,x2,y2){
 	}
 }
 */
-
-if !(editor) && keyboard_check_pressed(vk_home){
-	with(par_collectible) instance_destroy(self, false);
-	with(par_bricklike) instance_destroy(self, false);
-	end_round()
-	editor = true;
+if keyboard_check_pressed(vk_home) {
+	if editor{
+		global.round = 0
+		start_round()
+		global.money = 6000
+	}else{
+		with(par_collectible) instance_destroy(self, false);
+		with(par_bricklike) instance_destroy(self, false);
+		end_round()
+	}
+	editor = !editor;
 }
 
-	if(editor){
-		with(par_collectible) instance_destroy(self, false);
+if(editor){
+	with(par_collectible) instance_destroy(self, false);
 		
-		if mouse_wheel_up(){
-			entity_num --;
-			if entity_num < 0{
-				entity_num = array_length(entity_list) - 1;	
-			}
-		}
-		if mouse_wheel_down(){
-			entity_num ++;
-			if entity_num >= array_length(entity_list){
-				entity_num = 0;	
-			}
-		}
-		
-		mx = clamp((mouse_x div 16) * 16, bbox_left + TILE_MIN, bbox_right - TILE_MIN - sprite_get_width(entity_sprite[entity_num]));
-		my = clamp((mouse_y div 16) * 16, bbox_top + TILE_MIN, bbox_bottom - TILE_MIN - sprite_get_height(entity_sprite[entity_num]));
-		mx -= (sprite_get_xoffset(entity_sprite[entity_num])) - sprite_get_width(entity_sprite[entity_num]);
-		my -= (sprite_get_yoffset(entity_sprite[entity_num])) - sprite_get_height(entity_sprite[entity_num]);;
-		
-		//Collision
-		with instance_create_layer(mx, my, layer, obj_placer){
-			//obj_placer handels the canplace variable
-			mask_index = other.entity_sprite[other.entity_num];
-			sprite_index = mask_index;
-			var _oob = !(other.bbox_left + sprite_width < bbox_right) ||
-			           other.bbox_right - sprite_width < bbox_left  ||
-			           !(other.bbox_top + sprite_height < bbox_bottom) ||
-			           other.bbox_bottom - sprite_height < bbox_top;
-			if place_meeting(x, y, par_bricklike) || _oob other.canplace = false else other.canplace = true;
-			instance_destroy();
-		}
-
-		if button_pressed(inputs.shoot) || (button_check(inputs.shoot) && keyboard_check(vk_shift)){
-			if canplace{
-				with instance_create_layer(mx,my,"Instances",entity_list[entity_num]){
-					//Object specific placement stuff
-					switch object_index{
-						case obj_portal:
-							index = floor((instance_number(obj_portal) - 1) / 2);
-							break;
-					}
-				}
-			}
-		}
-		if button_pressed(inputs.menu_cancel) || (button_check(inputs.menu_cancel) && keyboard_check(vk_shift)){
-			with(collision_point(mx,my,par_bricklike,0,1)){
-				instance_destroy(self, false);
-			}
-		}
-		
-		if keyboard_check_pressed(vk_enter){
-			var _json = {}, i = 0;
-			with(par_bricklike){
-				switch object_index{
-					case obj_portal:
-						variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index), "index" : index });
-						break;
-					default:
-						variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
-						break;
-				}
-				i ++;
-			}
-			clipboard_set_text(json_stringify(_json));
-			_json = json_stringify(_json);
-			var file = file_text_open_write("output.txt");
-			file_text_write_string(file, _json);
-			file_text_close(file);	
-		}
-		if keyboard_check_pressed(vk_space){
-			with(par_collectible) instance_destroy(self, false);
-			with(par_bricklike) instance_destroy(self, false);
-			level_load(0);
-		}
-		if keyboard_check_pressed(vk_backspace){
-			editor = false;
-			global.round = 0
-			start_round()
-			global.money = 6000
+	entity_subnum += button_pressed(inputs.turn_right) - button_pressed(inputs.turn_left);
+	
+	if mouse_wheel_up(){
+		entity_num --;
+		if entity_num < 0{
+			entity_num = array_length(entity_list) - 1;	
 		}
 	}
+	if mouse_wheel_down(){
+		entity_num ++;
+		if entity_num >= array_length(entity_list){
+			entity_num = 0;	
+		}
+	}
+	
+	if entity_subnum < 0 entity_subnum = (array_length(entity_list[entity_num]) - 1);
+	if entity_subnum > (array_length(entity_list[entity_num]) - 1) entity_subnum = 0;
+	
+	var _entity = entity_list[entity_num][abs(entity_subnum) mod array_length(entity_list[entity_num])],
+	var _sprite = entity_sprite[entity_num][abs(entity_subnum) mod array_length(entity_sprite[entity_num])];
+	current_entity = _entity;
+	current_sprite = _sprite;
+	
+	mx = clamp((mouse_x div 16) * 16, bbox_left + TILE_MIN - 1, bbox_right - TILE_MIN - sprite_get_width(_sprite) + 1);
+	my = clamp((mouse_y div 16) * 16, bbox_top + TILE_MIN - 1, bbox_bottom - TILE_MIN - sprite_get_height(_sprite) + 1);
+	mx += (sprite_get_xoffset(_sprite));
+	my += (sprite_get_yoffset(_sprite));
+		
+	//Collision
+	with instance_create_layer(mx, my, layer, obj_placer){
+		//obj_placer handels the canplace variable
+		mask_index = _sprite;
+		sprite_index = mask_index;
+		if place_meeting(x, y, par_bricklike) other.canplace = false else other.canplace = true;
+		var _list = ds_list_create(),
+			 _num = instance_place_list(x, y, par_bricklike, _list, false);
+		if _num > 0{
+		    for (var i = 0; i < _num; ++i){
+		       _list[| i].blocking = true;
+		    }
+		}
+		ds_list_destroy(_list);
+		
+		instance_destroy();
+	}
+
+	if button_pressed(inputs.shoot) || (button_check(inputs.shoot) && keyboard_check(vk_shift)){
+		if canplace{
+			with instance_create_layer(mx,my,"Instances",_entity){
+				//Object specific placement stuff
+				switch object_index{
+					case obj_portal:
+						index = floor((instance_number(obj_portal) - 1) / 2);
+						break;
+				}
+			}
+		}
+	}
+	if button_pressed(inputs.menu_cancel) || (button_check(inputs.menu_cancel) && keyboard_check(vk_shift)){
+		with instance_create_layer(mx, my, layer, obj_placer){
+			mask_index = _sprite;
+			sprite_index = mask_index;
+			
+			var _list = ds_list_create(),
+				 _num = instance_place_list(x, y, par_bricklike, _list, false);
+			if _num > 0{
+			    for (var i = 0; i < _num; ++i){
+			       instance_destroy(_list[| i], false);
+			    }
+			}
+			ds_list_destroy(_list);
+		
+			instance_destroy();
+		}
+		with(collision_point(mx,my,par_bricklike,0,1)){
+			instance_destroy(self, false);
+		}
+	}
+	
+	if keyboard_check_pressed(vk_delete){
+		with par_bricklike instance_destroy(self, false);
+	}
+	
+	if keyboard_check_pressed(vk_enter){
+		var _json = {}, i = 0;
+		with(par_bricklike){
+			switch object_index{
+				case obj_portal:
+					variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index), "index" : index });
+					break;
+				default:
+					variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
+					break;
+			}
+			i ++;
+		}
+		clipboard_set_text(json_stringify(_json));
+		_json = json_stringify(_json);
+		var file = file_text_open_write("output.txt");
+		file_text_write_string(file, _json);
+		file_text_close(file);	
+	}
+	if keyboard_check_pressed(vk_space){
+		with(par_collectible) instance_destroy(self, false);
+		with(par_bricklike) instance_destroy(self, false);
+		level_load(0);
+	}
+}
