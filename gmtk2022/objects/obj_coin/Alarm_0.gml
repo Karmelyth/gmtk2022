@@ -3,13 +3,13 @@
 
 if object_index == obj_coin{
 	var _delete = false;
-	if !irandom(29){
+	if !irandom(24){
 		with instance_create_depth(x, y, depth - 1, obj_coin_silver){
 			direction = other.direction;
 			speed = other.speed;
 			_delete = true;
 		}
-	}else if !irandom(29){
+	}else if !irandom(59){
 		with instance_create_depth(x, y, depth - 1, obj_coin_gold){
 			direction = other.direction;
 			speed = other.speed;

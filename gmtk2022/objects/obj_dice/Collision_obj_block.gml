@@ -1,8 +1,9 @@
 /// @description bounce off this mfer
 // You can write your code in this editor
-if image_blend = c_dkgray exit;
+if image_blend = c_dkgray || !other.can_collide exit;
 x = xprevious
 y = yprevious
+nograv = false;
 
 var collision = {x: clamp(x, other.bbox_left, other.bbox_right), y: clamp(y, other.bbox_top, other.bbox_bottom)};
 
@@ -21,13 +22,21 @@ if other.object_index == obj_coin_pouch{
 
 	sound_play_pitch(other.my_health > 1 ? snd_bag_hit : snd_bag_open, random_range(1.2, 1.4));
 
-	repeat(4){
+	repeat(3){
 		with instance_create_layer(other.x, other.bbox_top - 13, "Instances", obj_coin){
 			motion_set(random_range(70, 110), irandom_range(5, 8));
 		}
 	}	
+	with instance_create_layer(choose(bbox_left - 8, bbox_right + 8), y, "Instances", obj_tooth){
+		motion_set(random_range(70, 110), irandom_range(3, 5));
+	}
+	
 	with other{
-		sprite_index = spr_bag_hurt_a;
+		switch sprite_index {
+			case spr_bag_idle_a: sprite_index = spr_bag_hurt_a; break;
+			case spr_bag_idle_b: sprite_index = spr_bag_hurt_b; break;
+		}
+
 		image_index = 0;
 	}
 }

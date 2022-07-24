@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Sprites/Blocks.yy",
+    "name": "coin bag",
+    "path": "folders/Sprites/Blocks/coin bag.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bag_idle_a",

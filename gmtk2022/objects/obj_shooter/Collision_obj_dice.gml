@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-{
+if(other.image_blend == c_white){
+	other.nograv = false;
 	if (dash_timer){
 		with(other){
 			instance_create_layer(x, y, "FX", obj_hit_large)

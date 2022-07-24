@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "msk_explosion",
-    "path": "sprites/msk_explosion/msk_explosion.yy",
+    "name": "spr_explosion_radius",
+    "path": "sprites/spr_explosion_radius/spr_explosion_radius.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"par_bricklike","path":"objects/par_bricklike/par_bricklike.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

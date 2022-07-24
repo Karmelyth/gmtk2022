@@ -68,7 +68,7 @@ function draw_dice_preview(_x, _y, gunangle) {
 			
 			//Collisions
 			var brick = instance_place(x, y, par_bricklike);
-			if instance_exists(brick) {
+			if instance_exists(brick) && brick.can_collide{
 				if instance_is(brick, obj_portal) {
 					var tpX = x, tpY = y;
 					if brick.teleport(self) {

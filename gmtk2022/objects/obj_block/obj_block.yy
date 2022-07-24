@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "blocks",
-    "path": "folders/objects/blocks.yy",
+    "name": "bricks",
+    "path": "folders/objects/blocks/bricks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_block",

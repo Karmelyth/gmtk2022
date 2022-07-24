@@ -9,6 +9,8 @@ if vspeed > 0 {
 else {
 	gravity = gravity_base
 }
+gravity *= nograv ? 0 : 1;
+
 if (hit_timer && !--hit_timer){
 	image_speed = clamp(0, image_speed - 1, 4);
 	if(image_speed){
@@ -24,6 +26,5 @@ while(vspeed > max_fallspeed){
 }
 
 //Portal reset
-if portal > -4 && !place_meeting(x, y, portal){
-	portal = -4;
-}
+if portal > -4 && !place_meeting(x, y, portal){portal = -4}
+if launcher > -4 && !place_meeting(x, y, launcher){launcher = -4}

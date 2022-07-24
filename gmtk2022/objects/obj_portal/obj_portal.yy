@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_portal",
-    "path": "sprites/spr_portal/spr_portal.yy",
+    "name": "spr_portal_lips_idle",
+    "path": "sprites/spr_portal_lips_idle/spr_portal_lips_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,13 +30,14 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "blocks",
-    "path": "folders/objects/blocks.yy",
+    "name": "portals",
+    "path": "folders/objects/blocks/portals.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_portal",

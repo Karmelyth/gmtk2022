@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Sprites/Blocks.yy",
+    "name": "portal",
+    "path": "folders/Sprites/Blocks/portal.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_portal",

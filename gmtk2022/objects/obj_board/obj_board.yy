@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Board",
-    "path": "folders/objects/Board.yy",
+    "name": "board",
+    "path": "folders/objects/board.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_board",

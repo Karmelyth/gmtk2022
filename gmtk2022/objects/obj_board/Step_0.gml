@@ -48,18 +48,14 @@ if(editor){
 	with(par_collectible) instance_destroy(self, false);
 		
 	entity_subnum += button_pressed(inputs.turn_right) - button_pressed(inputs.turn_left);
-	
+
 	if mouse_wheel_up(){
 		entity_num --;
-		if entity_num < 0{
-			entity_num = array_length(entity_list) - 1;	
-		}
+		if entity_num < 0 entity_num = array_length(entity_list) - 1;	
 	}
 	if mouse_wheel_down(){
 		entity_num ++;
-		if entity_num >= array_length(entity_list){
-			entity_num = 0;	
-		}
+		if entity_num >= array_length(entity_list) entity_num = 0;	
 	}
 	
 	if entity_subnum < 0 entity_subnum = (array_length(entity_list[entity_num]) - 1);
@@ -74,18 +70,25 @@ if(editor){
 	my = clamp((mouse_y div 16) * 16, bbox_top + TILE_MIN - 1, bbox_bottom - TILE_MIN - sprite_get_height(_sprite) + 1);
 	mx += (sprite_get_xoffset(_sprite));
 	my += (sprite_get_yoffset(_sprite));
-		
+	var _place = other.entity_list[other.entity_num][other.entity_subnum];
+	obj_layer = object_get_parent(_place) == obj_cable ? 1 : 0;
+	
+	
 	//Collision
 	with instance_create_layer(mx, my, layer, obj_placer){
 		//obj_placer handels the canplace variable
 		mask_index = _sprite;
 		sprite_index = mask_index;
-		if place_meeting(x, y, par_bricklike) other.canplace = false else other.canplace = true;
+		
+		other.canplace = true;
 		var _list = ds_list_create(),
 			 _num = instance_place_list(x, y, par_bricklike, _list, false);
 		if _num > 0{
 		    for (var i = 0; i < _num; ++i){
-		       _list[| i].blocking = true;
+		       if _list[| i].obj_layer == other.obj_layer{
+				   _list[| i].blocking = true;
+					obj_board.canplace = false;   
+				}
 		    }
 		}
 		ds_list_destroy(_list);
@@ -97,11 +100,8 @@ if(editor){
 		if canplace{
 			with instance_create_layer(mx,my,"Instances",_entity){
 				//Object specific placement stuff
-				switch object_index{
-					case obj_portal:
-						index = floor((instance_number(obj_portal) - 1) / 2);
-						break;
-				}
+				depth -= 2 * other.obj_layer;
+				obj_layer = other.obj_layer;
 			}
 		}
 	}
@@ -114,7 +114,7 @@ if(editor){
 				 _num = instance_place_list(x, y, par_bricklike, _list, false);
 			if _num > 0{
 			    for (var i = 0; i < _num; ++i){
-			       instance_destroy(_list[| i], false);
+			       if _list[| i].obj_layer == obj_board.obj_layer instance_destroy(_list[| i], false);
 			    }
 			}
 			ds_list_destroy(_list);
@@ -133,14 +133,7 @@ if(editor){
 	if keyboard_check_pressed(vk_enter){
 		var _json = {}, i = 0;
 		with(par_bricklike){
-			switch object_index{
-				case obj_portal:
-					variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index), "index" : index });
-					break;
-				default:
-					variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
-					break;
-			}
+			variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
 			i ++;
 		}
 		clipboard_set_text(json_stringify(_json));

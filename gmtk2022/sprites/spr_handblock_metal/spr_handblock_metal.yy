@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3bd8881e-2ab0-40ea-b864-225eab7ff1b1","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3bd8881e-2ab0-40ea-b864-225eab7ff1b1","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":{"name":"357f8398-f5c1-4a20-b017-7624ea093c1d","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_handblock_metal","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"3bd8881e-2ab0-40ea-b864-225eab7ff1b1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4226770c-e381-4750-8c15-da3c2734ec53","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4226770c-e381-4750-8c15-da3c2734ec53","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":{"name":"357f8398-f5c1-4a20-b017-7624ea093c1d","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_handblock_metal","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"4226770c-e381-4750-8c15-da3c2734ec53","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cf98d49d-2bd0-4cf7-8791-8f79588bb902","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cf98d49d-2bd0-4cf7-8791-8f79588bb902","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":{"name":"357f8398-f5c1-4a20-b017-7624ea093c1d","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_handblock_metal","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"cf98d49d-2bd0-4cf7-8791-8f79588bb902","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2e3a9584-40c2-423f-85bc-afc61cc53cae","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2e3a9584-40c2-423f-85bc-afc61cc53cae","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":{"name":"45ca3748-6570-4459-bfee-623bf42f5db4","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_handblock_metal","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"2e3a9584-40c2-423f-85bc-afc61cc53cae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4ce027e7-bcef-4755-b199-db607b674f2e","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4ce027e7-bcef-4755-b199-db607b674f2e","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":{"name":"45ca3748-6570-4459-bfee-623bf42f5db4","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_handblock_metal","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"4ce027e7-bcef-4755-b199-db607b674f2e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c96782d7-561f-4eb4-9161-052e60750c06","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c96782d7-561f-4eb4-9161-052e60750c06","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"LayerId":{"name":"45ca3748-6570-4459-bfee-623bf42f5db4","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_handblock_metal","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","name":"c96782d7-561f-4eb4-9161-052e60750c06","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_handblock_metal","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},
@@ -47,9 +47,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"67e8ab21-ce5d-447b-a28e-3b5cd365a412","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3bd8881e-2ab0-40ea-b864-225eab7ff1b1","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"5f763165-0a21-487e-8865-339a7712e871","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4226770c-e381-4750-8c15-da3c2734ec53","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"6f8c7dde-f785-4781-a659-c33146b60b46","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cf98d49d-2bd0-4cf7-8791-8f79588bb902","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"62fc59bd-f300-442d-bce2-c18c1c2ddaf2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2e3a9584-40c2-423f-85bc-afc61cc53cae","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"beeaf88c-ff5b-4df5-b3ab-8340be742f66","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4ce027e7-bcef-4755-b199-db607b674f2e","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"686cb66f-6eec-4ba5-9415-07094cd05bf0","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c96782d7-561f-4eb4-9161-052e60750c06","path":"sprites/spr_handblock_metal/spr_handblock_metal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -73,12 +73,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"357f8398-f5c1-4a20-b017-7624ea093c1d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"45ca3748-6570-4459-bfee-623bf42f5db4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Sprites/Blocks.yy",
+    "name": "bricks",
+    "path": "folders/Sprites/Blocks/bricks.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_handblock_metal",

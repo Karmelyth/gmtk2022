@@ -1,7 +1,8 @@
+event_inherited();
 image_index = irandom(image_number);
 my_health = 1;
 is_destructible = true;
-drop_chance = 29;
+drop_chance = 19;
 drop_amount = 1;
 nexthurt = current_time;
 if instance_exists(obj_board) {
