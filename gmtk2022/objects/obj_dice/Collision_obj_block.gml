@@ -27,7 +27,7 @@ if other.object_index == obj_coin_pouch{
 			motion_set(random_range(70, 110), irandom_range(5, 8));
 		}
 	}	
-	with instance_create_layer(choose(bbox_left - 8, bbox_right + 8), y, "Instances", obj_tooth){
+	if !irandom(9) with instance_create_layer(choose(bbox_left - 8, bbox_right + 8), y, "Instances", obj_tooth){
 		motion_set(random_range(70, 110), irandom_range(3, 5));
 	}
 	

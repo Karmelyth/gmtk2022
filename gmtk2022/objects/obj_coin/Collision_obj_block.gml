@@ -1,6 +1,6 @@
 /// @description bounce off this mfer
 // You can write your code in this editor
-if !other.can_collide exit;
+if !other.can_collide || other == portal exit;
 
 var makeParticle = (point_distance(x, y, xprevious, yprevious)) >= speed;
 

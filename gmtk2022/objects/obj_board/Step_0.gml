@@ -122,7 +122,7 @@ if(editor){
 			instance_destroy();
 		}
 		with(collision_point(mx,my,par_bricklike,0,1)){
-			instance_destroy(self, false);
+			if obj_layer == obj_board.obj_layer instance_destroy(self, false);
 		}
 	}
 	

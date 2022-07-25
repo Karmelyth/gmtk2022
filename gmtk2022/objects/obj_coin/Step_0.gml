@@ -28,9 +28,7 @@ if !irandom(40 - (speed > 0) * 25){
 	}
 }
 //Portal reset
-if portal > -4 && !place_meeting(x, y, portal){
-	portal = -4;
-}
+if portal > -4 && !place_meeting(x, y, portal)portal = -4;
 //Decide rolled value 
 if landed{
 	fade--;

@@ -24,7 +24,7 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 		//Zone where chips cannot be shot to stop people from wasting chips
 		if (abs(obj_dice.y - obj_board.bbox_bottom) >  55) && global.money > 100 {
 			with instance_create_layer(x, y, "Projectiles", obj_chip) {
-				motion_set(other.gunangle, 15)
+				motion_set(other.gunangle, 16)
 				global.money -= 100
 			}
 			sound_play_pitch(choose(snd_chip_throw1, snd_chip_throw2), 1)
