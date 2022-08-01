@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "AND gate",
-    "path": "folders/objects/blocks/logic/AND gate.yy",
+    "name": "splitter",
+    "path": "folders/objects/blocks/logic/splitter.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_splitter",

@@ -3,4 +3,5 @@
 
 blocking = false;
 can_collide = true;
+is_visible = true;
 obj_layer = 0;

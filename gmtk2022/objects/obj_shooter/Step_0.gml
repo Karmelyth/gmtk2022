@@ -71,3 +71,6 @@ if (--dash_timer){
 	}
 	hspeed = sign(dash_direction) * 15;
 }
+
+//Portal reset
+if portal > -4 && !place_meeting(x, y, portal)portal = -4;

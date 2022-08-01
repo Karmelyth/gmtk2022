@@ -8,10 +8,10 @@ function start_play(){
 }
 
 function end_round() {
-	
+		
 	global.rounds += 1
 	
-	with obj_shooter can_shoot = false
+	obj_shooter.can_shoot = false
 	
 	//Cuffs wins, payout
 	if global.cuffs_roll > global.house_roll {
@@ -70,6 +70,7 @@ function start_round() {
 			with(obj_board){
 		        var _wid = bbox_right - bbox_left - (272/2), hig = (bbox_bottom - bbox_top - 240)
 		        with(instance_create_layer(bbox_left + (272/2) + random(_wid), bbox_top + 80 + random(hig), "Portraits", obj_popup)){
+									
 		            // Yes    
 		        }
 		    }   	
@@ -83,6 +84,7 @@ function start_round() {
 		}
 		
 		roll_house()
+	
 		schedule(time, function() {
 			with obj_shooter {
 				has_dice = true

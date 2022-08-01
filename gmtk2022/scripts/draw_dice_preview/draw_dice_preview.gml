@@ -5,7 +5,7 @@ function draw_dice_preview(_x, _y, gunangle) {
 	draw_set_alpha(.8)
 	with instance_create_layer(_x, _y, layer, obj_fx) {
 		mask_index = spr_dice_hit
-		image_angle = 0
+		image_angle = 0;
 		
 		bounciness = .8
 		gravity_base = .26

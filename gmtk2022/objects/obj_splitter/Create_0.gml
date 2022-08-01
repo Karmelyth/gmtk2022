@@ -6,6 +6,7 @@ drop_amount = 0;
 input = true;
 can_collide = false;
 unloaded = false;
+is_visible = false;
 image_speed = 0;
 image_index = 0;
 

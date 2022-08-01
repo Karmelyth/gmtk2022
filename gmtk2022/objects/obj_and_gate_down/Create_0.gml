@@ -4,6 +4,7 @@ my_health = 99999;
 is_destructible = false;
 drop_amount = 0;
 input = true;
+is_visible = false;
 can_collide = false;
 unloaded = false;
 image_speed = 0;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_switch_d_off",
-    "path": "sprites/spr_switch_d_off/spr_switch_d_off.yy",
+    "name": "spr_bridge_r",
+    "path": "sprites/spr_bridge_r/spr_bridge_r.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_switch",
-    "path": "objects/obj_switch/obj_switch.yy",
+    "name": "obj_bridge_u",
+    "path": "objects/obj_bridge_u/obj_bridge_u.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -30,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "switches",
-    "path": "folders/objects/blocks/logic/switches.yy",
+    "name": "bridge",
+    "path": "folders/objects/blocks/logic/bridge.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_switch_off_d",
+  "name": "obj_bridge_r",
   "tags": [],
   "resourceType": "GMObject",
 }

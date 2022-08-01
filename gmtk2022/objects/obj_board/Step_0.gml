@@ -38,10 +38,12 @@ if keyboard_check_pressed(vk_home) {
 		global.money = 6000
 	}else{
 		with(par_collectible) instance_destroy(self, false);
-		with(par_bricklike) instance_destroy(self, false);
+		with(obj_dice) instance_destroy(self, false);
+		//with(par_bricklike) instance_destroy(self, false);
 		end_round()
 	}
 	editor = !editor;
+	with par_bricklike event_perform(ev_other, ev_user15);
 }
 
 if(editor){
@@ -127,7 +129,7 @@ if(editor){
 	}
 	
 	if keyboard_check_pressed(vk_delete){
-		with par_bricklike instance_destroy(self, false);
+		if instance_exists(par_bricklike) with par_bricklike instance_destroy(self, false);
 	}
 	
 	if keyboard_check_pressed(vk_enter){

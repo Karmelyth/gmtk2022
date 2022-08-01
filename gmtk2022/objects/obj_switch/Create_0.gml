@@ -7,3 +7,4 @@ active = false;
 spr_off = spr_switch_u_off;
 spr_on = spr_switch_u_on;
 input = false;
+can_output = true;

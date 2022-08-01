@@ -12,7 +12,7 @@ if (instance_exists(obj_board)) {
 		}else{
 			touchedBottom = true;
 			y = yprevious;
-			vspeed = -2;
+			vspeed = -3;
 			on_dice_bounce(self);
 		}
 	}
