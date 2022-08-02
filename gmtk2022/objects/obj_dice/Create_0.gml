@@ -19,3 +19,4 @@ last_bounce_patience = 16;
 last_bounce_patience_frame = current_time;
 portal = -4;
 launcher = -4;
+canmove = true;

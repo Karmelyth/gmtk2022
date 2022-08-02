@@ -1,4 +1,4 @@
-/// @description on level start/editor toggle
+/// @description on level start/round start/editor toggle
 if !obj_board.editor && !is_visible{
 	image_alpha = 0;
 }else{

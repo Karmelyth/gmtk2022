@@ -1,4 +1,4 @@
-
+if !canmove exit;
 speed = clamp(speed + extraspeed, -maxspeed - extraspeed, maxspeed + extraspeed)
 
 //Going down

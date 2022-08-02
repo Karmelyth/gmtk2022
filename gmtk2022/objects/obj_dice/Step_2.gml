@@ -1,6 +1,6 @@
 /// @description Stay inside board
 // You can write your code in this editor
-
+if !canmove exit;
 if (instance_exists(obj_board)) {
 	if bbox_bottom > obj_board.bbox_bottom{
 		if (touchedBottom){

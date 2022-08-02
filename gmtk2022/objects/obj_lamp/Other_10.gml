@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+if always_on active = true;
 if active{
 	sprite_index = spr_on;
 }else{

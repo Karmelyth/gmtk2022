@@ -13,5 +13,6 @@ dash_direction = 0;
 
 has_dice = false
 can_shoot = false
+die = -4;
 
 portal = -4;

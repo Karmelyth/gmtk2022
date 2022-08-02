@@ -18,9 +18,10 @@ if instance_exists(obj_board){
 	_editor = obj_board.editor;	
 	inBoard = point_in_rectangle(mouse_x, mouse_y, obj_board.bbox_left, obj_board.bbox_top, obj_board.bbox_right, obj_board.bbox_bottom)
 }
+
 if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) && can_shoot && inBoard {
 	//Shoot chips
-	if instance_exists(obj_dice) {
+	if instance_exists(die) {
 		//Zone where chips cannot be shot to stop people from wasting chips
 		if (abs(obj_dice.y - obj_board.bbox_bottom) >  55) && global.money > 100 {
 			with instance_create_layer(x, y, "Projectiles", obj_chip) {
@@ -40,6 +41,7 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 	else {
 		with instance_create_layer(x, y, "Projectiles", obj_dice) {
 			motion_set(other.gunangle, 18)
+			other.die = id;
 		}
 		sound_play_pitch(snd_die_throw, 1)
 		sprite_index = spr_hand_cast;

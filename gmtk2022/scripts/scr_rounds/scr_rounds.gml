@@ -5,6 +5,7 @@ function start_play(){
 	global.money -= BUY_IN
 	global.payout += BUY_IN * 2
 	roll_cuffs()
+	if instance_exists(obj_ballplacer) with obj_ballplacer instance_destroy();
 }
 
 function end_round() {
@@ -63,6 +64,9 @@ function end_round() {
 }
 
 function start_round() {
+	if instance_exists(par_bricklike) with par_bricklike event_perform(ev_other, ev_user15);
+	if instance_exists(obj_ball) with obj_ball event_perform(ev_other, ev_user15);
+	
 	with(obj_popup) sprite_index = spr_popup_end;
 	if global.money >= BUY_IN && ds_list_size(global.levels) > 0 {
 		// Sandwich

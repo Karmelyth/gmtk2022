@@ -138,6 +138,10 @@ if(editor){
 			variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
 			i ++;
 		}
+		with(obj_ball){
+			variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
+			i ++;
+		}
 		clipboard_set_text(json_stringify(_json));
 		_json = json_stringify(_json);
 		var file = file_text_open_write("output.txt");
