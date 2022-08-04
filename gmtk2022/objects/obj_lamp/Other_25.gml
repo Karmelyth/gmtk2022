@@ -1,3 +1,5 @@
 /// @description Insert description here
 event_inherited();
-alarm[1] = 1
+if active{
+	with output event_perform(ev_other, ev_user0);
+}

@@ -6,7 +6,7 @@ function on_dice_bounce(dice){
 	dice.sprite_index = spr_dice_hit;
 	dice.image_index += choose(1,1,2);
 	dice.image_speed += 0.5;
-	with(dice){
+	with(dice) if patience_enable{
 		if last_bounce_patience_frame < current_time{
 			if point_distance(x,y,last_bounce_coords[0],last_bounce_coords[1]) < TILE_WIDTH{
 				var _last_patience = last_bounce_patience

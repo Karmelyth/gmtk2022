@@ -5,3 +5,4 @@ if active{
 }else{
 	sprite_index = spr_off;
 }
+with output event_perform(ev_other, ev_user1);

@@ -98,7 +98,7 @@ if(editor){
 		instance_destroy();
 	}
 
-	if button_pressed(inputs.shoot) || (button_check(inputs.shoot) && keyboard_check(vk_shift)){
+	if button_check(inputs.shoot){
 		if canplace{
 			with instance_create_layer(mx,my,"Instances",_entity){
 				//Object specific placement stuff
@@ -107,7 +107,7 @@ if(editor){
 			}
 		}
 	}
-	if button_pressed(inputs.menu_cancel) || (button_check(inputs.menu_cancel) && keyboard_check(vk_shift)){
+	if button_check(inputs.menu_cancel){
 		with instance_create_layer(mx, my, layer, obj_placer){
 			mask_index = _sprite;
 			sprite_index = mask_index;

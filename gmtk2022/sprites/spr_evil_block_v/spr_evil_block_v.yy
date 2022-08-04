@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Sprites/Blocks.yy",
+    "name": "launchers",
+    "path": "folders/Sprites/Blocks/launchers.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_evil_block_v",

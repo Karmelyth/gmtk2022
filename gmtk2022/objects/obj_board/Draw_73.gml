@@ -1,7 +1,7 @@
 var _str =
 	@"Mouse Wheel: Change brick     Q & E: Change brick version
-	Left Click: Place brick (hold Shift to place many)
-	Right Click: Un-place brick (hold Shift to un-place many)
+	Left Click: Place brick (hold to place many)
+	Right Click: Un-place brick (hold to un-place many)
 	Enter: Output to file (Copies to clipboard too)
 	Home: Close editor     Delete: Clear level
 	Space: Load an implemented level

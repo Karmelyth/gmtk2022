@@ -3,4 +3,5 @@
 creator = -4;
 input = true;
 active = 0;
+ACTIVE = false;
 image_speed = 0;

@@ -1,7 +1,8 @@
 /// @description Insert description here
 event_inherited();
-
 active = false;
-sprite_index = active ? spr_on : spr_off;
-can_collide = !active;
+if input.ACTIVE || input.active{
+	active = true;
+}
 can_output = true;
+event_perform(ev_other, ev_user1);
