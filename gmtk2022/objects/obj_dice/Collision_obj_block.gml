@@ -12,7 +12,7 @@ motion_add(dir, vector_get_length_on_axis(speed, direction, dir + 180) * 2)
 
 if vspeed < 0 && speed > 2 vspeed = min(vspeed, -4);
 
-instance_create_layer((x + other.x) / 2, (y + other.y) / 2, "FX", obj_hit_small);
+instance_create_layer(collision.x, collision.y, "FX", obj_hit_small);
 
 on_dice_bounce(self)
 var _metal = !other.is_destructible;

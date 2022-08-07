@@ -14,7 +14,7 @@ function draw_money(_x, _y, moneyString) {
 		draw_sprite(spr_numbers, get_number_index(string_char_at(moneyString, i)), _x + (48 * (i - 1)), _y)
 	}
 	
-	draw_sprite(spr_dollar, -1, xsaved, _y)
+	draw_sprite(spr_dollar, get_animation_frame(2), xsaved, _y)
 }
 
 function draw_profit(_x, _y, moneyString) {
@@ -32,7 +32,7 @@ function draw_profit(_x, _y, moneyString) {
 		draw_sprite_ext(spr_numbers_white, get_number_index(string_char_at(moneyString, i)), _x + (48 * (i - 1)), _y, 1, 1, 0, color, 1)
 	}
 	
-	draw_sprite(spr_profits, -1, xsaved, _y)
+	draw_sprite(spr_profits, 0, xsaved, _y)
 }
 
 function draw_payout(_x, _y, moneyString) {
@@ -44,7 +44,7 @@ function draw_payout(_x, _y, moneyString) {
 	for (var i = 1; i <= string_length(moneyString); i++) { // Fixed
 		draw_sprite(spr_numbers, get_number_index(string_char_at(moneyString, i)), _x + (48 * (i - 1)), _y)
 	}
-	draw_sprite(spr_chips, -1, xsaved, _y)
+	draw_sprite(spr_chips, get_animation_frame(2), xsaved, _y)
 }
 
 function get_number_index(str) {

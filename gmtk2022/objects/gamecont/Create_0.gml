@@ -11,6 +11,8 @@ global.payoutLast = 0
 global.cuffs_roll = 0
 global.house_roll = 0
 
+global.wasUsingEditor = false
+
 global.rounds = 0
 global.round = -1
 global.levels = ds_list_create()

@@ -1,0 +1,297 @@
+{
+	"objects": [
+		{
+			"x": 192,
+			"y": 560,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 400,
+			"y": 456,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 688,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 640,
+			"y": 320,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 400,
+			"y": 472,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 144,
+			"y": 296,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 552,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 496,
+			"y": 552,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 504,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 496,
+			"y": 360,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 496,
+			"y": 520,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 192,
+			"y": 608,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 640,
+			"y": 480,
+			"object_index": "obj_portal"
+		},
+		{
+			"x": 368,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 496,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 496,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 520,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 360,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 464,
+			"y": 552,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 640,
+			"y": 528,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 592,
+			"y": 296,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 472,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 496,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 368,
+			"y": 552,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 520,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 496,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 368,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 592,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 368,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 240,
+			"y": 296,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 640,
+			"y": 272,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 688,
+			"y": 296,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 400,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 192,
+			"y": 320,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 464,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 368,
+			"y": 520,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 144,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 456,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 400,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 640,
+			"y": 560,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 192,
+			"y": 528,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 368,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 640,
+			"y": 608,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 192,
+			"y": 272,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 240,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 400,
+			"y": 504,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 400,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 192,
+			"y": 480,
+			"object_index": "obj_portal"
+		}
+	],
+	"info": {
+		"name": "Portal Launch"
+	}
+}

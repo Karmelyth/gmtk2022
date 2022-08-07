@@ -1,0 +1,382 @@
+{
+	"objects": [
+		{
+			"x": 480,
+			"y": 448,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 272,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 576,
+			"y": 544,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 496,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 112,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 480,
+			"y": 288,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 720,
+			"y": 472,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 512,
+			"y": 544,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 368,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 400,
+			"y": 328,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 400,
+			"y": 344,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 432,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 400,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 560,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 544,
+			"y": 496,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 240,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 608,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 368,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 304,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 344,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 528,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 272,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 192,
+			"y": 336,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 432,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 304,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 552,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 352,
+			"y": 288,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 352,
+			"y": 352,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 336,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 368,
+			"y": 376,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 280,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 376,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 256,
+			"y": 544,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 400,
+			"y": 552,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 480,
+			"y": 352,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 288,
+			"y": 496,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 112,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 224,
+			"y": 480,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 352,
+			"y": 480,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 608,
+			"y": 480,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 496,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 112,
+			"y": 472,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 480,
+			"y": 320,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 432,
+			"y": 328,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 560,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 480,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 224,
+			"y": 448,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 480,
+			"y": 480,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 352,
+			"y": 320,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 640,
+			"y": 336,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 720,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 496,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 560,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 528,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 400,
+			"y": 280,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 304,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 272,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 352,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 224,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 416,
+			"y": 384,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 608,
+			"y": 448,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 368,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 320,
+			"y": 544,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 528,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 352,
+			"y": 448,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 720,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 400,
+			"y": 264,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 624,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 592,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 208,
+			"y": 536,
+			"object_index": "obj_block"
+		}
+	],
+	"info": {
+		"name": "Penile (Jon)"
+	}
+}

@@ -1,14 +1,21 @@
-var _str =
-	@"Mouse Wheel: Change brick     Q & E: Change brick version
+if(editor){
+	
+	var _str =
+	@"Mouse Wheel: Change brick   Q & E: Change brick version
 	Left Click: Place brick (hold to place many)
 	Right Click: Un-place brick (hold to un-place many)
-	Enter: Output to file (Copies to clipboard too)
+	Enter: Save level
+	N: New Blank Level     T: Reload level from file
 	Home: Close editor     Delete: Clear level
-	Space: Load an implemented level
-		
-	Copypaste the contents of output.txt and put it into global.levelData (in scrinit)
-	The output is quite unholy, but we don't need it to NOT look unholy"
-if(editor){
+	Left/Right Arrows: Cycle through levels
+	
+	levelnamegoeshere" + "   " + string(global.level_num + 1) + "/" + string(array_length(global.levelData))
+	
+	if global.level_changed[global.level_num] {
+		_str = string_replace(_str, "Save level", "Save level (Unsaved Changes!)")
+	}
+	_str = string_replace(_str, "levelnamegoeshere", current_level.info.name)
+	
 	draw_rectangle_color(camera_get_view_x(0), camera_get_view_y(0), camera_get_view_x(0) + string_width(_str), camera_get_view_y(0) + string_height(_str) + 8, c_black, c_black, c_black, c_black, false)
 	draw_text(camera_get_view_x(0) + 8, camera_get_view_y(0) + 8, _str);
 	
