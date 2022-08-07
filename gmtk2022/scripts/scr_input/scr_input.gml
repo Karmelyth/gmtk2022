@@ -11,6 +11,9 @@ function button_released(inputName) {
 }
 
 function getInput(inputName, inputType) {
+	
+	if instance_exists(obj_text_prompt) return false
+	
 	var keys = [];
 	var mb = false;
 	switch (inputName) {
@@ -36,11 +39,33 @@ function getInput(inputName, inputType) {
 		case(inputs.turn_right):
 			keys = ["E"];
 			break
+			
+		case(inputs.editor_cycle):
+			keys = [vk_left, vk_right]
+			break
+		case(inputs.editor_left):
+			keys = [vk_left]
+			break
+		case(inputs.editor_right):
+			keys = [vk_right]
+			break
+		case(inputs.editor_clear):
+			keys = [vk_delete]
+			break
+		case(inputs.editor_save):
+			keys = [vk_enter]
+			break
+		case(inputs.editor_new):
+			keys = ["N"]
+			break
+		case(inputs.editor_reload):
+			keys = ["T"]
+			break 
 		
 		case (inputs.menu_use):
 			keys = [mb_left]; mb = true;
 			break
-		case (inputs.menu_cancel):
+		case (inputs.mouse_right):
 			keys = [mb_right]; mb = true;
 			break
 		case (inputs.menu_select):
@@ -82,10 +107,17 @@ enum inputs {
 	use,
 	shoot,
 	menu_use,
-	menu_cancel,
+	mouse_right,
 	menu_select,
 	turn_left,
-	turn_right
+	turn_right,
+	editor_save,
+	editor_cycle,
+	editor_left,
+	editor_right,
+	editor_clear,
+	editor_new,
+	editor_reload
 }
 
 enum inputTypes {

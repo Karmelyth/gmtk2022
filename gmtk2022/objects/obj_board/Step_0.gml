@@ -1,48 +1,26 @@
-/// @description Insert description here
-// You can write your code in this editor/
-/*
-function fill_with_bricks(x1,y1,x2,y2){
-	with(obj_block) instance_destroy();
-	
-	var _typ = choose(1, 1, 2);
-	
-	var _wid = (x2 - x1), _widO = _wid;
-	for(var i = x1;i<x2;i+=TILE_WIDTH){
-		_wid -= TILE_WIDTH;
-		var _hig = (y2 - y1), _higO = _hig;
-		for(var o = y1;o<y2;o+=TILE_HEIGHT){
-			_hig -= TILE_HEIGHT;
-			
-			if (range(_wid, 0, (_widO/5)) || range(_wid, (_widO/5) * 4, _widO)){  
-				if !range(_hig, _higO * 0.50, _higO * 0.25){ // Top of the lower half is always empty
-					with(instance_create_layer(i, o, layer, obj_block)){
-						alarm[0] = -1;	
-					}
-				}
-			}
-		}
-	}
-}
-{
-	#macro TILE_WIDTH 32
-	#macro TILE_HEIGHT 16
-	if keyboard_check_pressed(vk_delete){
-		fill_with_bricks(bbox_left + TILE_WIDTH, bbox_top + TILE_HEIGHT * 4, bbox_right - TILE_WIDTH, bbox_top + ((bbox_bottom - bbox_top) * 0.66));
-	}
-}
-*/
+/// @description Editor Code
+
+//Toggle Editor
 if keyboard_check_pressed(vk_home) {
-	if editor{
+	editor = !editor;
+	//Disable editor
+	if !editor {
+		update_current_level()
 		global.round = 0
+		global.rounds = 0
 		start_round()
+		global.round = 0
 		global.money = 6000
-	}else{
+	}
+	//Enable editor
+	else{
 		with(par_collectible) instance_destroy(self, false);
 		with(obj_dice) instance_destroy(self, false);
 		//with(par_bricklike) instance_destroy(self, false);
 		end_round()
+		level_clear()
+		level_load_ext(global.level_num)
 	}
-	editor = !editor;
 	with par_bricklike event_perform(ev_other, ev_user15);
 }
 
@@ -98,16 +76,17 @@ if(editor){
 		instance_destroy();
 	}
 
+	//Place bricks
 	if button_check(inputs.shoot){
 		if canplace{
 			with instance_create_layer(mx,my,"Instances",_entity){
-				//Object specific placement stuff
-				depth -= 2 * other.obj_layer;
 				obj_layer = other.obj_layer;
 			}
+			mark_level_changed()
 		}
 	}
-	if button_check(inputs.menu_cancel){
+	//Delete bricks
+	if button_check(inputs.mouse_right){
 		with instance_create_layer(mx, my, layer, obj_placer){
 			mask_index = _sprite;
 			sprite_index = mask_index;
@@ -118,6 +97,7 @@ if(editor){
 			    for (var i = 0; i < _num; ++i){
 			       if _list[| i].obj_layer == obj_board.obj_layer instance_destroy(_list[| i], false);
 			    }
+				mark_level_changed()
 			}
 			ds_list_destroy(_list);
 		
@@ -125,32 +105,43 @@ if(editor){
 		}
 		with(collision_point(mx,my,par_bricklike,0,1)){
 			if obj_layer == obj_board.obj_layer instance_destroy(self, false);
+			mark_level_changed()
 		}
 	}
 	
-	if keyboard_check_pressed(vk_delete){
-		if instance_exists(par_bricklike) with par_bricklike instance_destroy(self, false);
+	//Delete all board elements
+	if button_pressed(inputs.editor_clear){
+		level_clear()
+		mark_level_changed()
 	}
 	
-	if keyboard_check_pressed(vk_enter){
-		var _json = {}, i = 0;
-		with(par_bricklike){
-			variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
-			i ++;
-		}
-		with(obj_ball){
-			variable_struct_set(_json, string(i), { "x" : x, "y" : y, "object_index" : object_get_name(object_index) });
-			i ++;
-		}
-		clipboard_set_text(json_stringify(_json));
-		_json = json_stringify(_json);
-		var file = file_text_open_write("output.txt");
-		file_text_write_string(file, _json);
-		file_text_close(file);	
+	//New Level
+	if button_pressed(inputs.editor_new) {
+		level_clear()
+		
+		add_new_level()
+		level_load_ext(array_length(global.levelData) - 1)
 	}
-	if keyboard_check_pressed(vk_space){
-		with(par_collectible) instance_destroy(self, false);
-		with(par_bricklike) instance_destroy(self, false);
-		level_load(0);
+	
+	//Reload level from file
+	if button_pressed(inputs.editor_reload) && current_level.info.name != "" {
+		level_clear()
+		current_level = load_level_file(current_level.info.name + ".txt")
+		mark_level_changed(false)
+		level_load_ext(global.level_num)
+	}
+	
+	//Save Level
+	if button_pressed(inputs.editor_save){
+		save_current_level()
+	}
+	
+	//Cycle through loaded levels
+	if button_pressed(inputs.editor_cycle) {
+		if global.level_changed[global.level_num] {
+			update_current_level()
+		}
+		level_clear()
+		level_load(button_pressed(inputs.editor_left) ? -1 : 1)
 	}
 }

@@ -1,7 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_movement()
 
+var _editor = false,
+	inBoard = false;
+if instance_exists(obj_board){
+	_editor = obj_board.editor;	
+	inBoard = point_in_rectangle(mouse_x, mouse_y, obj_board.bbox_left, obj_board.bbox_top, obj_board.bbox_right, obj_board.bbox_bottom)
+}
+if !(_editor and button_check(inputs.editor_cycle)) {
+	scr_movement()
+}
 
 gunangle = point_direction(x, y, mouse_x, mouse_y);
 if gunangle > 180{
@@ -12,12 +20,7 @@ if gunangle > 180{
 
 //image_xscale = ((gunangle + 270) % 360) < 180 ? -1 : 1;
 //image_angle = gunangle - 90;
-var _editor = false,
-	inBoard = false;
-if instance_exists(obj_board){
-	_editor = obj_board.editor;	
-	inBoard = point_in_rectangle(mouse_x, mouse_y, obj_board.bbox_left, obj_board.bbox_top, obj_board.bbox_right, obj_board.bbox_bottom)
-}
+
 
 if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) && can_shoot && inBoard {
 	//Shoot chips

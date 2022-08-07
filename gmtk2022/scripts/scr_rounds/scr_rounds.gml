@@ -117,8 +117,13 @@ function clear_item() {
 }
 
 function start_new_level() {
-	var i = global.levels[| 0];
-	level_load_ext(i)
-	say_line(choose(vo_startboard01, vo_startboard02), -1);
-	ds_list_delete(global.levels, 0)
+	if global.wasUsingEditor {
+		level_load_ext(global.level_num)
+	}
+	else {
+		var i = global.levels[| 0];
+		level_load_ext(i)
+		say_line(choose(vo_startboard01, vo_startboard02), -1);
+		ds_list_delete(global.levels, 0)
+	}
 }

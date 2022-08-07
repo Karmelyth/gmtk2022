@@ -1,0 +1,332 @@
+{
+	"objects": [
+		{
+			"x": 96,
+			"y": 368,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 352,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 288,
+			"y": 576,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 528,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 304,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 768,
+			"y": 416,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 416,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 544,
+			"y": 272,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 608,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 736,
+			"y": 368,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 496,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 224,
+			"y": 304,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 272,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 352,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 224,
+			"y": 624,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 560,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 416,
+			"y": 336,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 560,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 544,
+			"y": 624,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 608,
+			"y": 304,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 480,
+			"y": 624,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 160,
+			"y": 336,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 368,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 480,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 608,
+			"y": 528,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 480,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 608,
+			"y": 624,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 464,
+			"y": 344,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 352,
+			"y": 624,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 368,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 608,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 352,
+			"y": 576,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 432,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 432,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 224,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 224,
+			"y": 528,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 496,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 64,
+			"y": 416,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 400,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 336,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 416,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 224,
+			"y": 560,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 416,
+			"y": 576,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 400,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 272,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 544,
+			"y": 576,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 768,
+			"y": 480,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 672,
+			"y": 336,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 544,
+			"y": 352,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 368,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 368,
+			"y": 344,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 304,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 464,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 480,
+			"y": 576,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 528,
+			"y": 536,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 608,
+			"y": 560,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 416,
+			"y": 624,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 64,
+			"y": 480,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 272,
+			"y": 488,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 224,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 544,
+			"y": 512,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 288,
+			"y": 624,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 464,
+			"y": 488,
+			"object_index": "obj_block"
+		}
+	],
+	"info": {
+		"name": "House"
+	}
+}

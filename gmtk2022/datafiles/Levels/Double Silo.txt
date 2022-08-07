@@ -1,0 +1,407 @@
+{
+	"objects": [
+		{
+			"x": 656,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 672,
+			"y": 528,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 528,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 288,
+			"y": 528,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 688,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 736,
+			"y": 480,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 528,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 112,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 272,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 160,
+			"y": 336,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 272,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 272,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 544,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 160,
+			"y": 528,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 224,
+			"y": 544,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 160,
+			"y": 272,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 480,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 144,
+			"y": 360,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 688,
+			"y": 360,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 544,
+			"y": 304,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 672,
+			"y": 560,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 672,
+			"y": 336,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 608,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 160,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 160,
+			"y": 304,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 160,
+			"y": 560,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 176,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 672,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 656,
+			"y": 376,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 688,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 80,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 720,
+			"y": 456,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 160,
+			"y": 464,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 544,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 544,
+			"y": 528,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 608,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 176,
+			"y": 376,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 288,
+			"y": 464,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 224,
+			"y": 240,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 672,
+			"y": 272,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 288,
+			"y": 560,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 528,
+			"y": 360,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 544,
+			"y": 272,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 224,
+			"y": 336,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 352,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 656,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 304,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 544,
+			"y": 560,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 160,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 144,
+			"y": 392,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 224,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 368,
+			"y": 344,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 608,
+			"y": 544,
+			"object_index": "obj_bumper"
+		},
+		{
+			"x": 160,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 560,
+			"y": 440,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 480,
+			"y": 464,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 288,
+			"y": 336,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 464,
+			"y": 344,
+			"object_index": "obj_cash_wad"
+		},
+		{
+			"x": 672,
+			"y": 464,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 544,
+			"y": 336,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 672,
+			"y": 304,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 304,
+			"y": 360,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 672,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 544,
+			"y": 592,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 544,
+			"y": 464,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 560,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 176,
+			"y": 408,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 608,
+			"y": 336,
+			"object_index": "obj_coin_pouch"
+		},
+		{
+			"x": 272,
+			"y": 376,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 352,
+			"y": 464,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 288,
+			"y": 304,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 560,
+			"y": 376,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 304,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 672,
+			"y": 496,
+			"object_index": "obj_block_metal"
+		},
+		{
+			"x": 144,
+			"y": 424,
+			"object_index": "obj_block"
+		},
+		{
+			"x": 96,
+			"y": 480,
+			"object_index": "obj_block_large"
+		},
+		{
+			"x": 752,
+			"y": 456,
+			"object_index": "obj_block"
+		}
+	],
+	"info": {
+		"name": "Double Silo"
+	}
+}
