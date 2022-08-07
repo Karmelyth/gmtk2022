@@ -5,3 +5,4 @@ visible = true
 with instance_create_layer(x, y, "FX", obj_brick_flash) {
 	sprite_index = other.sprite_index	
 }
+image_angle = direction - 90;
