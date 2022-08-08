@@ -16,7 +16,7 @@ current_sprite = msknone;
 obj_layer = 0;
 entity_list = [
 /*Bricks*/    [obj_block, obj_block_v], [obj_block_large, obj_block_large_v], [obj_block_metal, obj_block_metal_v],
-/*Money*/     [obj_cash_wad], [obj_coin_pouch], [obj_vault],
+/*Money*/     [obj_cash_wad, obj_block_gold], [obj_coin_pouch], [obj_vault],
 /*Movement 1*/[obj_bumper],
 /*Movement 2*/[obj_portal, obj_portal_1, obj_portal_2, obj_portal_3, obj_portal_4, obj_portal_5],
 /*Movement 3*/[obj_launcher_u, obj_launcher_ur, obj_launcher_r, obj_launcher_dr, obj_launcher_d, obj_launcher_dl, obj_launcher_l, obj_launcher_ul],
@@ -28,7 +28,7 @@ entity_list = [
 ];
 entity_auto = [
 [0, 0], [0, 0], [0, 0],
-[0], [0], [1],
+[0, 0], [0], [1],
 [0],
 [0, 0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0, 0, 0, 0],
@@ -40,7 +40,7 @@ entity_auto = [
 ];
 entity_sprite = [
 [spr_handblock, spr_handblock_v], [spr_handblock_big, spr_handblock_big_v], [spr_handblock_metal, spr_handblock_metal_v],
-[spr_cash_wad], [spr_bag_idle_a], [spr_vault_idle],
+[spr_cash_wad, spr_gold_bar], [spr_bag_idle_a], [spr_vault_idle],
 [spr_bumper],
 [spr_portal_back_purple, spr_portal_back_yellow, spr_portal_back_orange, spr_portal_back_green, spr_portal_back_blue, spr_portal_back_gray],
 [spr_launcher_2, spr_launcher_1, spr_launcher_0, spr_launcher_7, spr_launcher_6, spr_launcher_5, spr_launcher_4, spr_launcher_3],
@@ -48,7 +48,7 @@ entity_sprite = [
 [spr_switch_d_on, spr_switch_r_on, spr_switch_u_on, spr_switch_l_on],
 [spr_cable_lr, spr_cable_ud, spr_cable_ld, spr_cable_lu, spr_cable_ru, spr_cable_rd],
 [spr_gate_and_u, spr_gate_and_l, spr_gate_and_d, spr_gate_and_r], [spr_bridge_u, spr_bridge_r, spr_bridge_d, spr_bridge_l], [spr_lamp], [spr_handblock_toggle, spr_handblock_toggle_off],
-[spr_ball]
+[spr_ball_place]
 ];
 
 mx = 0;

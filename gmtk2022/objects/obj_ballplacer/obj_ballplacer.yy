@@ -6,7 +6,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_handblock_toggle",
+    "path": "sprites/spr_handblock_toggle/spr_handblock_toggle.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_block",

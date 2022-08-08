@@ -11,3 +11,4 @@ maxspeed_deviation = random_range(1, 1.5);
 image_speed = random_range(.8, 1.2);
 landed = false;
 fade = round(room_speed);
+value = 80;

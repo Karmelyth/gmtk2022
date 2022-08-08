@@ -13,6 +13,7 @@ alarm[0] = 10
 landed = false;
 touchedBottom = false;
 nograv = false;
+spr_hit = spr_dice_hit;
 
 patience_enable = true;
 last_bounce_coords = [x,y];

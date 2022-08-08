@@ -1,4 +1,4 @@
 
 event_inherited();
-value = 125;
+value = 100;
 sound = snd_coin_big

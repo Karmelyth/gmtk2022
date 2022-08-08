@@ -3,7 +3,7 @@
 function on_dice_bounce(dice){
 //	dice.vspeed -= 2
 	dice.hit_timer = 30;
-	dice.sprite_index = spr_dice_hit;
+	dice.sprite_index = dice.spr_hit;
 	dice.image_index += choose(1,1,2);
 	dice.image_speed += 0.5;
 	with(dice) if patience_enable{

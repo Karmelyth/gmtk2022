@@ -58,6 +58,12 @@ if(editor){
 	with instance_create_layer(mx, my, layer, obj_placer){
 		//obj_placer handels the canplace variable
 		mask_index = _sprite;
+		
+		//Lazy fix, sorry:
+		if _sprite == spr_ball{	
+			_sprite = spr_bomb;
+			mask_index = _sprite;
+		}
 		sprite_index = mask_index;
 		
 		other.canplace = true;
