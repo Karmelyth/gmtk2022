@@ -115,6 +115,19 @@ if(editor){
 		}
 	}
 	
+	if button_pressed(inputs.editor_translate_down) {
+		with par_bricklike {
+			y += TILE_HEIGHT
+		}
+		mark_level_changed()
+	}
+	if button_pressed(inputs.editor_translate_up) {
+		with par_bricklike {
+			y -= TILE_HEIGHT
+		}
+		mark_level_changed()
+	}
+	
 	//Delete all board elements
 	if button_pressed(inputs.editor_clear){
 		level_clear()

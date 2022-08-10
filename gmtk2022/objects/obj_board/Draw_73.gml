@@ -8,7 +8,7 @@ if(editor){
 	N: New Blank Level     T: Reload level from file
 	Home: Close editor     Delete: Clear level
 	Left/Right Arrows: Cycle through levels
-	
+	Up/Down Arrows: Move level up/down
 	levelnamegoeshere" + "   " + string(global.level_num + 1) + "/" + string(array_length(global.levelData))
 	
 	if global.level_changed[global.level_num] {
