@@ -1,4 +1,4 @@
-
+event_inherited()
 speed = clamp(speed, -maxspeed, maxspeed)
 
 //Going down

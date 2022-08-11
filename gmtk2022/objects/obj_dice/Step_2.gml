@@ -14,6 +14,7 @@ if (instance_exists(obj_board)) {
 			y = yprevious;
 			vspeed = -3;
 			on_dice_bounce(self);
+			nograv = false
 		}
 	}
 }

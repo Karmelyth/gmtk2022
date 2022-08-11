@@ -21,15 +21,17 @@ if gunangle > 180{
 //image_xscale = ((gunangle + 270) % 360) < 180 ? -1 : 1;
 //image_angle = gunangle - 90;
 
+#macro chip_cost 100
 
 if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) && can_shoot && inBoard {
 	//Shoot chips
 	if instance_exists(die) {
 		//Zone where chips cannot be shot to stop people from wasting chips
-		if (abs(obj_dice.y - obj_board.bbox_bottom) >  55) && global.money > 100 {
+		if (abs(obj_dice.y - obj_board.bbox_bottom) >  55) && global.money > chip_cost {
 			with instance_create_layer(x, y, "Projectiles", obj_chip) {
 				motion_set(other.gunangle, 16)
-				global.money -= 100
+				global.money -= chip_cost
+				global.payout += chip_cost
 			}
 			sound_play_pitch(choose(snd_chip_throw1, snd_chip_throw2), 1)
 			sprite_index = spr_hand_thanos_snap;
@@ -60,7 +62,7 @@ if button_pressed(inputs.shoot) && gunangle > 0 && gunangle < 180 && !(_editor) 
 
 // Dash
 var _input = button_check(inputs.right) - button_check(inputs.left)
-if mouse_check_button_pressed(mb_right) && dash_timer <= 10 && _input != 0{
+if button_pressed(inputs.dash) && dash_timer <= 10 && _input != 0{
 	dash_timer = 20;
 	dash_direction = _input;
 	sound_play_pitch(choose(snd_dash1, snd_dash2), 1);

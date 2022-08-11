@@ -15,7 +15,7 @@ function getInput(inputName, inputType) {
 	if instance_exists(obj_text_prompt) return false
 	
 	var keys = [];
-	var mb = false;
+
 	switch (inputName) {
 		case (inputs.use):
 			keys = ["E", vk_enter, vk_space]
@@ -69,40 +69,59 @@ function getInput(inputName, inputType) {
 			break 
 		
 		case (inputs.menu_use):
-			keys = [mb_left]; mb = true;
+			keys = [mb_left]
 			break
 		case (inputs.mouse_right):
-			keys = [mb_right]; mb = true;
+			keys = [mb_right];
 			break
 		case (inputs.menu_select):
-			keys = [mb_middle]; mb = true;
+			keys = [mb_middle];
 			break
 			
 		case(inputs.shoot):
-			keys = [mb_left]; mb = true;
+			keys = [mb_left];
+			break
+		case(inputs.dash):
+			keys = [vk_space, mb_right]
 			break
 	}
-	var func;
-	switch(inputType) {
-		case(inputTypes.pressed):
-			func = (mb ? mouse_check_button_pressed : keyboard_check_pressed);
-			break
-		case(inputTypes.check):
-			func = (mb ? mouse_check_button : keyboard_check);
-			break
-		case(inputTypes.released):
-			func = (mb ? mouse_check_button_released : keyboard_check_released);
-			break
-	}
+	
 	for (var i = 0; i < array_length(keys); i++) {
-		if is_string(keys[i]) {
-			if func(ord(keys[i])) return true
-		}
-		else {
-			if func(keys[i]) return true
-		}
+		if check_button(keys[i], inputType) return true
 	}
 	return false
+}
+
+function check_button(input, inputType) {
+	if is_string(input) {
+		return get_key_function(ord(input), inputType)
+	}
+	if input == mb_left || input == mb_right || input = mb_middle {
+		return get_mouse_function(input, inputType)
+	}
+	else return get_key_function(input, inputType)
+}
+
+function get_key_function(input, inputType) {
+	switch(inputType) {
+		case(inputTypes.pressed):
+			return keyboard_check_pressed(input)
+		case(inputTypes.check):
+			return keyboard_check(input)
+		case(inputTypes.released):
+			return keyboard_check_released(input)
+	}
+}
+
+function get_mouse_function(input, inputType) {
+	switch(inputType) {
+		case(inputTypes.pressed):
+			return mouse_check_button_pressed(input)
+		case(inputTypes.check):
+			return mouse_check_button(input)
+		case(inputTypes.released):
+			return mouse_check_button_released(input)
+	}
 }
 
 enum inputs {
@@ -112,6 +131,7 @@ enum inputs {
 	right,
 	use,
 	shoot,
+	dash,
 	menu_use,
 	mouse_right,
 	menu_select,

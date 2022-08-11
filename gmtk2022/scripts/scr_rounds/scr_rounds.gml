@@ -39,8 +39,8 @@ function end_round() {
 		image_index = 0
 	}
 	
-	if global.rounds > 50 || global.money < BUY_IN {
-		var good = global.rounds > 50;
+	if global.rounds >= 50 || global.money < BUY_IN {
+		var good = global.rounds >= 50;
 		if good {
 			say_line(vo_endgame_win, function(){
 					with instance_create_layer(0, 0, "FX", obj_fade_to) {
@@ -82,7 +82,22 @@ function start_round() {
 		}
 		
 		var time = 80;
-		if ++global.round mod 5 == 0 {
+		
+		var fullclear = true;
+		with obj_block {
+			if is_destructible {
+				fullclear = false
+				break
+			}
+		}
+		with obj_vault {
+			if unloaded {
+				fullclear = false
+				break
+			}
+		}
+		
+		if (++global.round mod 5 == 0) || fullclear {
 			global.round = 0
 			make_new_board()
 			time += 40
@@ -102,6 +117,9 @@ function start_round() {
 
 function make_new_board() {
 	with par_bricklike {
+		clear_item()
+	}
+	with par_collectible {
 		clear_item()
 	}
 	schedule(8, start_new_level)
