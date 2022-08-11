@@ -3,9 +3,9 @@
 if active{
 	sprite_index = spr_off;
 	can_collide = false;
-	depth += 20;
+	depth -= 20;
 }else{
 	sprite_index = spr_on;
 	can_collide = true;
-	depth -= 20;
+	depth += 20;
 }
