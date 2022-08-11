@@ -61,6 +61,12 @@ function getInput(inputName, inputType) {
 		case(inputs.editor_reload):
 			keys = ["T"]
 			break 
+		case(inputs.editor_translate_down):
+			keys = [vk_down]
+			break 
+		case(inputs.editor_translate_up):
+			keys = [vk_up]
+			break 
 		
 		case (inputs.menu_use):
 			keys = [mb_left]; mb = true;
@@ -117,7 +123,9 @@ enum inputs {
 	editor_right,
 	editor_clear,
 	editor_new,
-	editor_reload
+	editor_reload,
+	editor_translate_up,
+	editor_translate_down
 }
 
 enum inputTypes {

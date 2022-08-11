@@ -1,5 +1,5 @@
 event_inherited();
 value = 5;
-sound = snd_die_hit_thing;
+sound = snd_coin;
 timer = 0;
 maxfade = room_speed * .5;
