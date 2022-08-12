@@ -13,8 +13,8 @@ motion_add(dir, vector_get_length_on_axis(speed, direction, dir + 180) * 2)
 if vspeed < 0 && speed > 2 vspeed = min(vspeed, -4);
 
 instance_create_layer(collision.x, collision.y, "FX", obj_hit_small);
+on_dice_bounce(self);
 
-on_dice_bounce(self)
 var _metal = !other.is_destructible;
 sound_play_pitch(_metal ? snd_hitmetal : snd_die_hit_peg, _metal ? 1.6 * random_range(0.8, 1.2): random_range(0.8, 1.2));
 

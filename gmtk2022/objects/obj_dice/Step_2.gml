@@ -5,12 +5,16 @@ if (instance_exists(obj_board)) {
 	if bbox_bottom > obj_board.bbox_bottom{
 		if (touchedBottom){
 			if bbox_bottom > obj_board.bbox_bottom + 128{
-				scr_dice_land()
-				instance_destroy()
-				exit;
+					if object_index = obj_dice{
+					scr_dice_land()
+					instance_destroy()
+					exit;
+				}else{
+					y = yprevious;
+				}
 			}
 		}else{
-			touchedBottom = true;
+			touchedBottom++;
 			y = yprevious;
 			vspeed = -3;
 			on_dice_bounce(self);

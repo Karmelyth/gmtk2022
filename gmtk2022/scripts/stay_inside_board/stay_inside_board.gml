@@ -26,7 +26,7 @@ function stay_inside_board() {
 	//might not need this since the dice should handle landing on its own.
 	//probably can just do that check first
 	var _touchedBottom = false;
-	if object_index == obj_dice{
+	if object_index == obj_dice || object_index == obj_ball{
 		_touchedBottom = touchedBottom;
 	}
 	if bbox_bottom > obj_board.bbox_bottom && (_touchedBottom = false){

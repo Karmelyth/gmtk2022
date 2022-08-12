@@ -13,4 +13,5 @@ fade = maxfade;
 portal = -4;
 sound = snd_coin
 board_bottom_bounce = -5;
+depth -= 2;
 alarm[0] = 1
