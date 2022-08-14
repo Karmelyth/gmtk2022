@@ -85,8 +85,18 @@ if(editor){
 	//Place bricks
 	if button_check(inputs.shoot){
 		if canplace{
+			sound_play_pitch(snd_die_hit_peg, random_range(1.7, 3));
+			
 			with instance_create_layer(mx,my,"Instances",_entity){
 				obj_layer = other.obj_layer;
+				
+				var _factor = (sprite_width * sprite_height) / (TILE_MIN * 8);
+				
+				repeat(floor(_factor)) with instance_create_depth(x, y, depth + 21 * choose(1, 1, 1, -1), obj_dust){
+					motion_add(random(360), random_range(3, 6) * (1 + _factor / 40));
+					friction = random_range(.35, .2) * (1 + _factor / 40);
+					image_speed *= random_range(.8, 1);
+				}
 			}
 			mark_level_changed()
 		}
@@ -101,7 +111,19 @@ if(editor){
 				 _num = instance_place_list(x, y, par_bricklike, _list, false);
 			if _num > 0{
 			    for (var i = 0; i < _num; ++i){
-			       if _list[| i].obj_layer == obj_board.obj_layer instance_destroy(_list[| i], false);
+			       if _list[| i].obj_layer == obj_board.obj_layer{
+					   
+					   var _factor = (_list[| i].sprite_width * _list[| i].sprite_height) / (TILE_MIN * 8);
+					   repeat(3 + _factor) with instance_create_depth(x, y, depth + 21 * choose(1, 1, 1, -1), obj_dust){
+							motion_add(random(360), random_range(3, 6) * (1 + _factor / 40));
+							friction = random_range(.35, .2) * (1 + _factor / 40);
+							image_speed *= random_range(.8, 1);
+							gravity = -.1;
+						}
+					   instance_destroy(_list[| i], false);
+					   
+					   sound_play_pitch(snd_die_throw, random_range(3, 4));
+					}
 			    }
 				mark_level_changed()
 			}

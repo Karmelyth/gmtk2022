@@ -3,3 +3,4 @@
 
 money = 6000
 alarm[0] = room_speed * 15
+tell_secret = false // Whether or not to show the "Press Home to enable editor" message

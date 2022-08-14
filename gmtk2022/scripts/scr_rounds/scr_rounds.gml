@@ -99,6 +99,34 @@ function start_round() {
 		
 		if (++global.round mod 5 == 0) || fullclear {
 			global.round = 0
+			if fullclear && global.rounds > 0 {
+				
+				say_line(vo_boardclear, function(){
+						instance_create_layer(obj_board.x, obj_board.y, "FX", obj_explosion_radius)
+						obj_board.image_blend = c_red
+						var _payout = 500;
+						
+						if irandom(299){
+							
+							do{
+								with instance_create_layer(random_range(obj_board.bbox_left + 20, obj_board.bbox_right - 20), obj_board.y, "Instances", choose(obj_coin, obj_coin_silver, obj_coin_gold)){
+									_payout -= value;
+									motion_add(90, random_range(2, 5));
+								}
+							}until(_payout <= 0)
+						}else{
+							
+							_payout += 500 // because catching teeth is kinda difficult so more money to compensate
+							do{
+								with instance_create_layer(random_range(obj_board.bbox_left + 20, obj_board.bbox_right - 20), obj_board.y, "Instances", obj_tooth){
+									_payout -= value;
+									motion_add(90, random_range(2, 5));
+								}
+							}until(_payout <= 0)
+						}
+					}
+				)
+			}
 			make_new_board()
 			time += 40
 		}
