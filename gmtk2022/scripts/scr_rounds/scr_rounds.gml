@@ -150,6 +150,9 @@ function make_new_board() {
 	with par_collectible {
 		clear_item()
 	}
+	with obj_ball {
+		clear_item()
+	}
 	schedule(8, start_new_level)
 	
 }

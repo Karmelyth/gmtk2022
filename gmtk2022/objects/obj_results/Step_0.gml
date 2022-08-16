@@ -8,7 +8,7 @@ if !instance_exists(obj_fade_from) {
 		if abs(dif) <= 25 {
 			money = global.money
 			
-			if money >= (60000 + 6000) alarm[1] = room_speed * 2;
+			if money >= (50000 + 6000) alarm[1] = room_speed * 2;
 		}
 		money = floor(money)
 	}
