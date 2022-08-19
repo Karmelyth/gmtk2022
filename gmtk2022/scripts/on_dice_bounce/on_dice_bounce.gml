@@ -13,7 +13,7 @@ function on_dice_bounce(dice){
 				last_bounce_patience --;
 				last_bounce_patience_frame = current_time + 1000;
 				if last_bounce_patience <= 8 && _last_patience > 8{
-					var _snd = choose(vo_impatient01,vo_impatient02,vo_impatient03,vo_impatient04);
+					var _snd = choose(vo_impatient01,vo_impatient02,vo_impatient03,vo_impatient04,vo_impatient05);
 					say_line(_snd, -1);
 				}
 				if last_bounce_patience <= 0{

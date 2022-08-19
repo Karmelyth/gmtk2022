@@ -43,6 +43,7 @@ if other.object_index == obj_coin_pouch{
 
 
 if other.is_destructible{
+	has_bounced = true;
 	other.my_health -= damage;
 	if other.my_health <= 0{
 		instance_destroy(other);

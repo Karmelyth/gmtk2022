@@ -16,5 +16,6 @@ if !active{
 			if sign(other.vspeed) == -1 active = true;
 			break;
 	}
+	if active sound_play_pitch(choose(snd_switch01, snd_switch02), 1)
 	event_perform(ev_other, ev_user1);
 }

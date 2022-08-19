@@ -14,6 +14,7 @@ landed = false;
 touchedBottom = false;
 nograv = false;
 spr_hit = spr_dice_hit;
+has_bounced = false;
 
 patience_enable = true;
 last_bounce_coords = [x,y];

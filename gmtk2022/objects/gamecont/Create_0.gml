@@ -16,6 +16,8 @@ global.wasUsingEditor = false
 global.rounds = 0
 global.round = -1
 global.levels = ds_list_create()
+
+global.lastroundtie = false
 for (var i = 0; i < array_length(global.levelData); i++) {
 	ds_list_add(global.levels, i)
 }
