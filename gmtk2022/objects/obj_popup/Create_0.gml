@@ -16,7 +16,7 @@ with(instance_create_layer(x - _xoff, y + _yoff, "Portraits", obj_prompt)){
 				schedule(5, function() {
 					say_line(vo_eat, function() {
 						schedule(5, function() {
-							sound_play_pitch(snd_double, 1);	
+							sound_play_pitch(snd_double, 1.5);	
 						})
 					})			
 				})

@@ -52,4 +52,5 @@ if other.is_destructible{
 	if object_index != obj_ball roll_cuffs()
 }
 
+
 extraspeed = 0;

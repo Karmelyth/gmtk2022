@@ -5,7 +5,8 @@
 function start_play(){
 	global.money -= BUY_IN
 	global.payout += BUY_IN// * 2 // Why is this here?
-	roll_cuffs()
+//	roll_cuffs()
+	global.cuffs_roll = -1;
 	if instance_exists(obj_ballplacer) with obj_ballplacer instance_destroy();
 	if instance_exists(obj_ball) with obj_ball canmove = true;
 }
@@ -35,15 +36,22 @@ function end_round() {
 		
 		sound_play_pitch(snd_youlose, 1);
 		if !check_fullclear() {
-			if random(100) < 60 schedule(8, function(){
-				say_line(choose(vo_youlose01, vo_youlose02, vo_youlose03, vo_youlose04, vo_youlose05, vo_youlose06, vo_youlose07, vo_youlose08,
-								vo_youlose09, vo_youlose10, vo_youlose11, vo_youlose12, vo_youlose13, vo_youlose14, vo_youlose15), -1, false);
-			})
+			if global.cuffs_roll == -1 {
+				schedule(8, function(){
+					say_line(choose(vo_miss01, vo_miss02, vo_miss03, vo_miss04, vo_miss05), -1, false);
+				})
+			}
+			else {
+				if random(100) < 60 schedule(8, function(){
+					say_line(choose(vo_youlose01, vo_youlose02, vo_youlose03, vo_youlose04, vo_youlose05, vo_youlose06, vo_youlose07, vo_youlose08,
+									vo_youlose09, vo_youlose10, vo_youlose11, vo_youlose12, vo_youlose13, vo_youlose14, vo_youlose15), -1, false);
+				})
+			}
 		}
 	}
 	//Double or nothing, next round retains this one's payout
 	if global.cuffs_roll == global.house_roll {
-		
+		sound_play(snd_double)
 		if !check_fullclear() {
 			if !global.lastroundtie {
 				say_line(choose(vo_double01, vo_double02, vo_double03, vo_double04, vo_double05, vo_double06, vo_double07, vo_double08, vo_double09, vo_double10), -1);
@@ -151,7 +159,7 @@ function check_fullclear() {
 			}
 		}
 		with obj_vault {
-			if unloaded {
+			if !unloaded {
 				fullclear = false
 				break
 			}
