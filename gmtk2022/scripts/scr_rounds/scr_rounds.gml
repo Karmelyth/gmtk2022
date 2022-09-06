@@ -4,7 +4,7 @@
 #macro game_speed game_get_speed(gamespeed_fps)
 function start_play(){
 	global.money -= BUY_IN
-	global.payout += BUY_IN// * 2 // Why is this here?
+	global.payout += BUY_IN * 2 // * 2 because the house matches your bet
 //	roll_cuffs()
 	global.cuffs_roll = -1;
 	if instance_exists(obj_ballplacer) with obj_ballplacer instance_destroy();
