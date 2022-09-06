@@ -8,7 +8,7 @@ function json_beautify(json_string) {
 		global.g_json_beautify_fb = buffer_create(1024, buffer_fast, 1);
 		global.g_json_beautify_rb = buffer_create(1024, buffer_grow, 1);
 	");
-	var src = argument0;
+	var src = json_string;
 	// copy text to string buffer:
 	var rb = global.g_json_beautify_rb;
 	buffer_seek(rb, buffer_seek_start, 0);

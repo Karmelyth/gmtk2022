@@ -129,7 +129,7 @@ function draw_dice_preview(_x, _y, gunangle) {
 			draw_line_width_color(points[i].x, points[i].y, points[i - 1].x, points[i - 1].y, 3, c_white, c_white)
 		}
 		
-		draw_circle_color(x, y, 5, c_white, c_white, true)
+		draw_sprite(spr_preview_end, 0, x, y)
 		draw_set_alpha(1)
 		
 		instance_destroy()

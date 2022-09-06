@@ -29,5 +29,4 @@ schedule(120, function() {
 	start_round()
 })
 
-global.elvis_sound = -1
 alarm[0] = room_speed * 30;

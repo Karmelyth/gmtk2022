@@ -49,7 +49,7 @@ if other.is_destructible{
 		instance_destroy(other);
 	}
 	
-	roll_cuffs()
+	if object_index != obj_ball roll_cuffs()
 }
 
 extraspeed = 0;

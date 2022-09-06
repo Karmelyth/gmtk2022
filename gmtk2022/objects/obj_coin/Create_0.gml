@@ -15,3 +15,4 @@ sound = snd_coin
 board_bottom_bounce = -5;
 depth -= 2;
 alarm[0] = 1
+lastcollision = {"x": x, "y": y}

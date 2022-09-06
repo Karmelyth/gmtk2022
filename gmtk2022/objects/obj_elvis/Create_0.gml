@@ -7,6 +7,5 @@ progress = 0
 waitforvoiceline = 0
 wait = 60
 
-whendonetalking = -1
 
 global.elvis_done = false

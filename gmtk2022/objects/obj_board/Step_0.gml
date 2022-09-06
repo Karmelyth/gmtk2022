@@ -42,7 +42,7 @@ if(editor){
 	if entity_subnum > (array_length(entity_list[entity_num]) - 1) entity_subnum = 0;
 	
 	var _entity = entity_list[entity_num][abs(entity_subnum) mod array_length(entity_list[entity_num])],
-	var _sprite = entity_sprite[entity_num][abs(entity_subnum) mod array_length(entity_sprite[entity_num])];
+		_sprite = entity_sprite[entity_num][abs(entity_subnum) mod array_length(entity_sprite[entity_num])];
 	current_entity = _entity;
 	current_sprite = _sprite;
 	
